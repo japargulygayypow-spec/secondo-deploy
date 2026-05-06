@@ -1,0 +1,164 @@
+[
+    {
+        "model": "product.size",
+        "pk": 1,
+        "fields": {
+            "name": "XS",
+            "size_type": "cloth",
+            "order": 10
+        }
+    },
+    {
+        "model": "product.size",
+        "pk": 2,
+        "fields": {
+            "name": "S",
+            "size_type": "cloth",
+            "order": 20
+        }
+    },
+    {
+        "model": "product.size",
+        "pk": 3,
+        "fields": {
+            "name": "M",
+            "size_type": "cloth",
+            "order": 30
+        }
+    },
+    {
+        "model": "product.size",
+        "pk": 4,
+        "fields": {
+            "name": "L",
+            "size_type": "cloth",
+            "order": 40
+        }
+    },
+    {
+        "model": "product.size",
+        "pk": 5,
+        "fields": {
+            "name": "XL",
+            "size_type": "cloth",
+            "order": 50
+        }
+    },
+    {
+        "model": "product.size",
+        "pk": 6,
+        "fields": {
+            "name": "XXL",
+            "size_type": "cloth",
+            "order": 60
+        }
+    },
+    {
+        "model": "product.size",
+        "pk": 7,
+        "fields": {
+            "name": "35",
+            "size_type": "shoe",
+            "order": 35
+        }
+    },
+    {
+        "model": "product.size",
+        "pk": 8,
+        "fields": {
+            "name": "36",
+            "size_type": "shoe",
+            "order": 36
+        }
+    },
+    {
+        "model": "product.size",
+        "pk": 9,
+        "fields": {
+            "name": "37",
+            "size_type": "shoe",
+            "order": 37
+        }
+    },
+    {
+        "model": "product.size",
+        "pk": 10,
+        "fields": {
+            "name": "38",
+            "size_type": "shoe",
+            "order": 38
+        }
+    },
+    {
+        "model": "product.size",
+        "pk": 11,
+        "fields": {
+            "name": "39",
+            "size_type": "shoe",
+            "order": 39
+        }
+    },
+    {
+        "model": "product.size",
+        "pk": 12,
+        "fields": {
+            "name": "40",
+            "size_type": "shoe",
+            "order": 40
+        }
+    },
+    {
+        "model": "product.size",
+        "pk": 13,
+        "fields": {
+            "name": "41",
+            "size_type": "shoe",
+            "order": 41
+        }
+    },
+    {
+        "model": "product.size",
+        "pk": 14,
+        "fields": {
+            "name": "42",
+            "size_type": "shoe",
+            "order": 42
+        }
+    },
+    {
+        "model": "product.size",
+        "pk": 15,
+        "fields": {
+            "name": "43",
+            "size_type": "shoe",
+            "order": 43
+        }
+    },
+    {
+        "model": "product.size",
+        "pk": 16,
+        "fields": {
+            "name": "44",
+            "size_type": "shoe",
+            "order": 44
+        }
+    },
+    {
+        "model": "product.size",
+        "pk": 17,
+        "fields": {
+            "name": "45",
+            "size_type": "shoe",
+            "order": 45
+        }
+    },
+    {
+        "model": "product.size",
+        "pk": 18,
+        "fields": {
+            "name": "46",
+            "size_type": "shoe",
+            "order": 46
+        }
+    }
+]

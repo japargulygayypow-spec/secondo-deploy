@@ -1,0 +1,752 @@
+[
+    {
+        "model": "product.product",
+        "pk": 101,
+        "fields": {
+            "category": 4,
+            "title": "Cotton Crew Neck T-Shirt",
+            "title_en": "Cotton Crew Neck T-Shirt",
+            "title_ru": "Хлопковая футболка с круглым вырезом",
+            "title_tk": "Pagta mataly futbolka",
+            "description": "Classic fit, 100% cotton.",
+            "price": "19.99",
+            "stock": 50,
+            "created_at": "2026-01-20"
+        }
+    },
+    {
+        "model": "product.product",
+        "pk": 102,
+        "fields": {
+            "category": 4,
+            "title": "Slim Fit Polo Shirt",
+            "title_en": "Slim Fit Polo Shirt",
+            "title_ru": "Поло Slim Fit",
+            "title_tk": "Slim Fit Polo köýnekçe",
+            "description": "Sporty and casual look.",
+            "price": "29.99",
+            "stock": 40,
+            "created_at": "2026-01-20"
+        }
+    },
+    {
+        "model": "product.product",
+        "pk": 103,
+        "fields": {
+            "category": 5,
+            "title": "Oxford White Shirt",
+            "title_en": "Oxford White Shirt",
+            "title_ru": "Белая рубашка Оксфорд",
+            "title_tk": "Ak Oksford köýnegi",
+            "description": "Perfect for office wear.",
+            "price": "49.99",
+            "stock": 30,
+            "created_at": "2026-01-21"
+        }
+    },
+    {
+        "model": "product.product",
+        "pk": 104,
+        "fields": {
+            "category": 5,
+            "title": "Checkered Flannel Shirt",
+            "title_en": "Checkered Flannel Shirt",
+            "title_ru": "Клетчатая фланелевая рубашка",
+            "title_tk": "Kletkaly flanel köýnegi",
+            "description": "Warm and comfortable.",
+            "price": "39.99",
+            "stock": 25,
+            "created_at": "2026-01-21"
+        }
+    },
+    {
+        "model": "product.product",
+        "pk": 105,
+        "fields": {
+            "category": 6,
+            "title": "Classic Blue Jeans",
+            "title_en": "Classic Blue Jeans",
+            "title_ru": "Классические синие джинсы",
+            "title_tk": "Klassiki gök jinsi",
+            "description": "Durable denim fabric.",
+            "price": "59.99",
+            "stock": 60,
+            "created_at": "2026-01-21"
+        }
+    },
+    {
+        "model": "product.product",
+        "pk": 106,
+        "fields": {
+            "category": 6,
+            "title": "Black Chino Pants",
+            "title_en": "Black Chino Pants",
+            "title_ru": "Черные брюки чинос",
+            "title_tk": "Gara Çinos balagy",
+            "description": "Versatile for any occasion.",
+            "price": "45.00",
+            "stock": 35,
+            "created_at": "2026-01-21"
+        }
+    },
+    {
+        "model": "product.product",
+        "pk": 107,
+        "fields": {
+            "category": 7,
+            "title": "Leather Biker Jacket",
+            "title_en": "Leather Biker Jacket",
+            "title_ru": "Кожаная куртка-косуха",
+            "title_tk": "Deri baýker kurtkasy",
+            "description": "Genuine leather, stylish cut.",
+            "price": "199.99",
+            "stock": 10,
+            "created_at": "2026-01-22"
+        }
+    },
+    {
+        "model": "product.product",
+        "pk": 108,
+        "fields": {
+            "category": 7,
+            "title": "Winter Parka Coat",
+            "title_en": "Winter Parka Coat",
+            "title_ru": "Зимняя парка",
+            "title_tk": "Gysky parka",
+            "description": "Insulated for cold weather.",
+            "price": "149.99",
+            "stock": 15,
+            "created_at": "2026-01-22"
+        }
+    },
+    {
+        "model": "product.product",
+        "pk": 109,
+        "fields": {
+            "category": 8,
+            "title": "Navy Blue Business Suit",
+            "title_en": "Navy Blue Business Suit",
+            "title_ru": "Темно-синий деловой костюм",
+            "title_tk": "Gök delowy kostýum",
+            "description": "Premium wool blend.",
+            "price": "299.99",
+            "stock": 8,
+            "created_at": "2026-01-22"
+        }
+    },
+    {
+        "model": "product.product",
+        "pk": 110,
+        "fields": {
+            "category": 9,
+            "title": "Men's Tracksuit Set",
+            "title_en": "Men's Tracksuit Set",
+            "title_ru": "Мужской спортивный костюм",
+            "title_tk": "Erkek sport lybasy",
+            "description": "Jacket and pants set.",
+            "price": "79.99",
+            "stock": 20,
+            "created_at": "2026-01-22"
+        }
+    },
+    {
+        "model": "product.product",
+        "pk": 111,
+        "fields": {
+            "category": 11,
+            "title": "Leather Dress Shoes",
+            "title_en": "Leather Dress Shoes",
+            "title_ru": "Кожаные туфли",
+            "title_tk": "Deri köwüşler",
+            "description": "Elegant formal shoes.",
+            "price": "120.00",
+            "stock": 12,
+            "created_at": "2026-01-23"
+        }
+    },
+    {
+        "model": "product.product",
+        "pk": 112,
+        "fields": {
+            "category": 11,
+            "title": "Running Sneakers",
+            "title_en": "Running Sneakers",
+            "title_ru": "Беговые кроссовки",
+            "title_tk": "Ylgaw krossowkasy",
+            "description": "Lightweight and breathable.",
+            "price": "89.99",
+            "stock": 25,
+            "created_at": "2026-01-23"
+        }
+    },
+    {
+        "model": "product.product",
+        "pk": 113,
+        "fields": {
+            "category": 12,
+            "title": "Summer Floral Dress",
+            "title_en": "Summer Floral Dress",
+            "title_ru": "Летнее платье с цветами",
+            "title_tk": "Gülli tomus köýnegi",
+            "description": "Light chiffon fabric.",
+            "price": "65.00",
+            "stock": 20,
+            "created_at": "2026-01-23"
+        }
+    },
+    {
+        "model": "product.product",
+        "pk": 114,
+        "fields": {
+            "category": 12,
+            "title": "Black Evening Gown",
+            "title_en": "Black Evening Gown",
+            "title_ru": "Черное вечернее платье",
+            "title_tk": "Gara agşam köýnegi",
+            "description": "Elegant floor-length dress.",
+            "price": "150.00",
+            "stock": 5,
+            "created_at": "2026-01-23"
+        }
+    },
+    {
+        "model": "product.product",
+        "pk": 115,
+        "fields": {
+            "category": 13,
+            "title": "Silk Blouse",
+            "title_en": "Silk Blouse",
+            "title_ru": "Шелковая блузка",
+            "title_tk": "Ýüpek bluza",
+            "description": "Soft and luxurious feel.",
+            "price": "55.00",
+            "stock": 15,
+            "created_at": "2026-01-24"
+        }
+    },
+    {
+        "model": "product.product",
+        "pk": 116,
+        "fields": {
+            "category": 13,
+            "title": "Casual Cotton Top",
+            "title_en": "Casual Cotton Top",
+            "title_ru": "Повседневный хлопковый топ",
+            "title_tk": "Gündelik pagta top",
+            "description": "Great for everyday wear.",
+            "price": "25.00",
+            "stock": 30,
+            "created_at": "2026-01-24"
+        }
+    },
+    {
+        "model": "product.product",
+        "pk": 117,
+        "fields": {
+            "category": 14,
+            "title": "Pleated Midi Skirt",
+            "title_en": "Pleated Midi Skirt",
+            "title_ru": "Плиссированная юбка миди",
+            "title_tk": "Midi ýubka",
+            "description": "Stylish and trendy.",
+            "price": "45.00",
+            "stock": 20,
+            "created_at": "2026-01-24"
+        }
+    },
+    {
+        "model": "product.product",
+        "pk": 118,
+        "fields": {
+            "category": 15,
+            "title": "Skinny High-Waist Jeans",
+            "title_en": "Skinny High-Waist Jeans",
+            "title_ru": "Джинсы скинни с высокой талией",
+            "title_tk": "Sqinny jinsi",
+            "description": "Form-fitting denim.",
+            "price": "65.00",
+            "stock": 40,
+            "created_at": "2026-01-24"
+        }
+    },
+    {
+        "model": "product.product",
+        "pk": 119,
+        "fields": {
+            "category": 16,
+            "title": "Beige Trench Coat",
+            "title_en": "Beige Trench Coat",
+            "title_ru": "Бежевый тренч",
+            "title_tk": "Bež plaş",
+            "description": "Water-resistant classic coat.",
+            "price": "120.00",
+            "stock": 10,
+            "created_at": "2026-01-25"
+        }
+    },
+    {
+        "model": "product.product",
+        "pk": 120,
+        "fields": {
+            "category": 17,
+            "title": "Yoga Leggings",
+            "title_en": "Yoga Leggings",
+            "title_ru": "Леггинсы для йоги",
+            "title_tk": "Ýoga üçin legginsy",
+            "description": "Stretchy and breathable.",
+            "price": "35.00",
+            "stock": 50,
+            "created_at": "2026-01-25"
+        }
+    },
+    {
+        "model": "product.product",
+        "pk": 121,
+        "fields": {
+            "category": 19,
+            "title": "Red Stiletto Heels",
+            "title_en": "Red Stiletto Heels",
+            "title_ru": "Красные туфли на шпильке",
+            "title_tk": "Gyzyl ökjeli köwüş",
+            "description": "For special occasions.",
+            "price": "95.00",
+            "stock": 10,
+            "created_at": "2026-01-25"
+        }
+    },
+    {
+        "model": "product.product",
+        "pk": 122,
+        "fields": {
+            "category": 19,
+            "title": "Comfortable Flats",
+            "title_en": "Comfortable Flats",
+            "title_ru": "Удобные балетки",
+            "title_tk": "Rahat baletkalar",
+            "description": "Soft leather flats.",
+            "price": "50.00",
+            "stock": 30,
+            "created_at": "2026-01-25"
+        }
+    },
+    {
+        "model": "product.product",
+        "pk": 123,
+        "fields": {
+            "category": 23,
+            "title": "Boys' Graphic T-Shirt",
+            "title_en": "Boys' Graphic T-Shirt",
+            "title_ru": "Футболка с принтом для мальчиков",
+            "title_tk": "Oglanlar üçin suratly futbolka",
+            "description": "Fun dinosaur print.",
+            "price": "15.00",
+            "stock": 40,
+            "created_at": "2026-01-26"
+        }
+    },
+    {
+        "model": "product.product",
+        "pk": 124,
+        "fields": {
+            "category": 24,
+            "title": "Boys' Cargo Pants",
+            "title_en": "Boys' Cargo Pants",
+            "title_ru": "Брюки карго для мальчиков",
+            "title_tk": "Oglanlar üçin kargo balagy",
+            "description": "Durable with pockets.",
+            "price": "25.00",
+            "stock": 30,
+            "created_at": "2026-01-26"
+        }
+    },
+    {
+        "model": "product.product",
+        "pk": 125,
+        "fields": {
+            "category": 25,
+            "title": "Girls' Party Dress",
+            "title_en": "Girls' Party Dress",
+            "title_ru": "Нарядное платье для девочек",
+            "title_tk": "Gyzlar üçin toý köýnegi",
+            "description": "Pink with ribbons.",
+            "price": "35.00",
+            "stock": 20,
+            "created_at": "2026-01-26"
+        }
+    },
+    {
+        "model": "product.product",
+        "pk": 126,
+        "fields": {
+            "category": 26,
+            "title": "Girls' Unicorn Top",
+            "title_en": "Girls' Unicorn Top",
+            "title_ru": "Топ с единорогом для девочек",
+            "title_tk": "Gyzlar üçin ýekemuyzly top",
+            "description": "Sparkly sequins.",
+            "price": "18.00",
+            "stock": 35,
+            "created_at": "2026-01-26"
+        }
+    },
+    {
+        "model": "product.product",
+        "pk": 127,
+        "fields": {
+            "category": 36,
+            "title": "Men's Leather Belt",
+            "title_en": "Men's Leather Belt",
+            "title_ru": "Мужской кожаный ремень",
+            "title_tk": "Erkek deri guşagy",
+            "description": "Genuine leather, black.",
+            "price": "25.00",
+            "stock": 50,
+            "created_at": "2026-01-27"
+        }
+    },
+    {
+        "model": "product.product",
+        "pk": 128,
+        "fields": {
+            "category": 37,
+            "title": "Leather Wallet",
+            "title_en": "Leather Wallet",
+            "title_ru": "Кожаный кошелек",
+            "title_tk": "Deri gapjyk",
+            "description": "Multiple card slots.",
+            "price": "30.00",
+            "stock": 40,
+            "created_at": "2026-01-27"
+        }
+    },
+    {
+        "model": "product.product",
+        "pk": 129,
+        "fields": {
+            "category": 38,
+            "title": "Silk Tie Red",
+            "title_en": "Silk Tie Red",
+            "title_ru": "Шелковый галстук (красный)",
+            "title_tk": "Gyzyl ýüpek galstuk",
+            "description": "Classic pattern.",
+            "price": "20.00",
+            "stock": 30,
+            "created_at": "2026-01-27"
+        }
+    },
+    {
+        "model": "product.product",
+        "pk": 130,
+        "fields": {
+            "category": 32,
+            "title": "Silver Necklace",
+            "title_en": "Silver Necklace",
+            "title_ru": "Серебряное ожерелье",
+            "title_tk": "Kümüş halka",
+            "description": "Sterling silver 925.",
+            "price": "45.00",
+            "stock": 20,
+            "created_at": "2026-01-27"
+        }
+    },
+    {
+        "model": "product.product",
+        "pk": 131,
+        "fields": {
+            "category": 32,
+            "title": "Pearl Earrings",
+            "title_en": "Pearl Earrings",
+            "title_ru": "Жемчужные серьги",
+            "title_tk": "Hünji gulakhalka",
+            "description": "Elegant freshwater pearls.",
+            "price": "35.00",
+            "stock": 25,
+            "created_at": "2026-01-27"
+        }
+    },
+    {
+        "model": "product.product",
+        "pk": 132,
+        "fields": {
+            "category": 39,
+            "title": "Women's Handbag",
+            "title_en": "Women's Handbag",
+            "title_ru": "Женская сумка",
+            "title_tk": "Zenan sumkasy",
+            "description": "Spacious and stylish.",
+            "price": "75.00",
+            "stock": 15,
+            "created_at": "2026-01-27"
+        }
+    },
+    {
+        "model": "product.product",
+        "pk": 133,
+        "fields": {
+            "category": 40,
+            "title": "Cashmere Scarf",
+            "title_en": "Cashmere Scarf",
+            "title_ru": "Кашемировый шарф",
+            "title_tk": "Kaşmir şarf",
+            "description": "Soft and warm.",
+            "price": "40.00",
+            "stock": 20,
+            "created_at": "2026-01-27"
+        }
+    },
+    {
+        "model": "product.product",
+        "pk": 134,
+        "fields": {
+            "category": 42,
+            "title": "Cat Eye Sunglasses",
+            "title_en": "Cat Eye Sunglasses",
+            "title_ru": "Очки 'Кошачий глаз'",
+            "title_tk": "Pişik göz äýnek",
+            "description": "UV protection.",
+            "price": "25.00",
+            "stock": 30,
+            "created_at": "2026-01-27"
+        }
+    },
+    {
+        "model": "product.product",
+        "pk": 135,
+        "fields": {
+            "category": 43,
+            "title": "Kids' Beanie Hat",
+            "title_en": "Kids' Beanie Hat",
+            "title_ru": "Детская шапка бини",
+            "title_tk": "Çaga papagy",
+            "description": "Warm knit hat.",
+            "price": "12.00",
+            "stock": 50,
+            "created_at": "2026-01-27"
+        }
+    },
+    {
+        "model": "product.product",
+        "pk": 136,
+        "fields": {
+            "category": 44,
+            "title": "School Backpack",
+            "title_en": "School Backpack",
+            "title_ru": "Школьный рюкзак",
+            "title_tk": "Mekdep rýukzagy",
+            "description": "Durable with compartments.",
+            "price": "45.00",
+            "stock": 20,
+            "created_at": "2026-01-27"
+        }
+    },
+    {
+        "model": "product.product",
+        "pk": 137,
+        "fields": {
+            "category": 22,
+            "title": "Baby Onesie Set",
+            "title_en": "Baby Onesie Set",
+            "title_ru": "Набор боди для малышей",
+            "title_tk": "Bäbek eşikleri toplumy",
+            "description": "Pack of 3, organic cotton.",
+            "price": "25.00",
+            "stock": 40,
+            "created_at": "2026-01-27"
+        }
+    },
+    {
+        "model": "product.product",
+        "pk": 138,
+        "fields": {
+            "category": 4,
+            "title": "Striped T-Shirt",
+            "title_en": "Striped T-Shirt",
+            "title_ru": "Полосатая футболка",
+            "title_tk": "Zolakly futbolka",
+            "description": "Nautical style.",
+            "price": "22.00",
+            "stock": 30,
+            "created_at": "2026-01-27"
+        }
+    },
+    {
+        "model": "product.product",
+        "pk": 139,
+        "fields": {
+            "category": 10,
+            "title": "Boxer Briefs 3-Pack",
+            "title_en": "Boxer Briefs 3-Pack",
+            "title_ru": "Боксеры (набор 3 шт)",
+            "title_tk": "Içki geýim (3 sany)",
+            "description": "Comfort waistband.",
+            "price": "30.00",
+            "stock": 50,
+            "created_at": "2026-01-27"
+        }
+    },
+    {
+        "model": "product.product",
+        "pk": 140,
+        "fields": {
+            "category": 18,
+            "title": "Lace Bra",
+            "title_en": "Lace Bra",
+            "title_ru": "Кружевной бюстгальтер",
+            "title_tk": "Kružewaly lifçik",
+            "description": "Soft lace detail.",
+            "price": "28.00",
+            "stock": 25,
+            "created_at": "2026-01-27"
+        }
+    },
+    {
+        "model": "product.product",
+        "pk": 141,
+        "fields": {
+            "category": 6,
+            "title": "Grey Joggers",
+            "title_en": "Grey Joggers",
+            "title_ru": "Серые джоггеры",
+            "title_tk": "Çal joggerler",
+            "description": "Casual wear.",
+            "price": "35.00",
+            "stock": 30,
+            "created_at": "2026-01-27"
+        }
+    },
+    {
+        "model": "product.product",
+        "pk": 142,
+        "fields": {
+            "category": 5,
+            "title": "Denim Shirt",
+            "title_en": "Denim Shirt",
+            "title_ru": "Джинсовая рубашка",
+            "title_tk": "Jinsi köýnek",
+            "description": "Western style.",
+            "price": "45.00",
+            "stock": 20,
+            "created_at": "2026-01-27"
+        }
+    },
+    {
+        "model": "product.product",
+        "pk": 143,
+        "fields": {
+            "category": 15,
+            "title": "Wide Leg Trousers",
+            "title_en": "Wide Leg Trousers",
+            "title_ru": "Широкие брюки",
+            "title_tk": "Giň balak",
+            "description": "Modern silhouette.",
+            "price": "55.00",
+            "stock": 15,
+            "created_at": "2026-01-27"
+        }
+    },
+    {
+        "model": "product.product",
+        "pk": 144,
+        "fields": {
+            "category": 16,
+            "title": "Winter Puffer Jacket",
+            "title_en": "Winter Puffer Jacket",
+            "title_ru": "Зимний пуховик",
+            "title_tk": "Gysky puhowik",
+            "description": "Very warm.",
+            "price": "130.00",
+            "stock": 10,
+            "created_at": "2026-01-27"
+        }
+    },
+    {
+        "model": "product.product",
+        "pk": 145,
+        "fields": {
+            "category": 11,
+            "title": "Casual Loafers",
+            "title_en": "Casual Loafers",
+            "title_ru": "Повседневные лоферы",
+            "title_tk": "Gündelik loferler",
+            "description": "Suede material.",
+            "price": "80.00",
+            "stock": 15,
+            "created_at": "2026-01-28"
+        }
+    },
+    {
+        "model": "product.product",
+        "pk": 146,
+        "fields": {
+            "category": 12,
+            "title": "Wrap Dress",
+            "title_en": "Wrap Dress",
+            "title_ru": "Платье с запахом",
+            "title_tk": "Oraşan köýnek",
+            "description": "Flattering fit.",
+            "price": "60.00",
+            "stock": 20,
+            "created_at": "2026-01-28"
+        }
+    },
+    {
+        "model": "product.product",
+        "pk": 147,
+        "fields": {
+            "category": 20,
+            "title": "Boys' Hoodie",
+            "title_en": "Boys' Hoodie",
+            "title_ru": "Худи для мальчиков",
+            "title_tk": "Oglan üçin hudi",
+            "description": "With kangaroo pocket.",
+            "price": "25.00",
+            "stock": 35,
+            "created_at": "2026-01-28"
+        }
+    },
+    {
+        "model": "product.product",
+        "pk": 148,
+        "fields": {
+            "category": 21,
+            "title": "Girls' Leggings",
+            "title_en": "Girls' Leggings",
+            "title_ru": "Леггинсы для девочек",
+            "title_tk": "Gyzlar üçin legginsy",
+            "description": "Colorful patterns.",
+            "price": "15.00",
+            "stock": 40,
+            "created_at": "2026-01-28"
+        }
+    },
+    {
+        "model": "product.product",
+        "pk": 149,
+        "fields": {
+            "category": 37,
+            "title": "Card Holder",
+            "title_en": "Card Holder",
+            "title_ru": "Картхолдер",
+            "title_tk": "Kart saklaýjy",
+            "description": "Slim design.",
+            "price": "15.00",
+            "stock": 60,
+            "created_at": "2026-01-28"
+        }
+    },
+    {
+        "model": "product.product",
+        "pk": 150,
+        "fields": {
+            "category": 32,
+            "title": "Gold Plated Bracelet",
+            "title_en": "Gold Plated Bracelet",
+            "title_ru": "Позолоченный браслет",
+            "title_tk": "Altyn çaýylan bilezik",
+            "description": "Delicate chain.",
+            "price": "40.00",
+            "stock": 25,
+            "created_at": "2026-01-28"
+        }
+    }
+]

@@ -1,0 +1,610 @@
+[
+    {
+        "model": "product.category",
+        "pk": 2,
+        "fields": {
+            "name": "Women",
+            "name_en": "Women",
+            "name_ru": "Женщины",
+            "name_tk": "Zenanlar",
+            "parent": null,
+            "slug": "women",
+            "lft": 1,
+            "rght": 34,
+            "tree_id": 2,
+            "level": 0
+        }
+    },
+    {
+        "model": "product.category",
+        "pk": 3,
+        "fields": {
+            "name": "Children",
+            "name_en": "Children",
+            "name_ru": "Дети",
+            "name_tk": "Çagalar",
+            "parent": null,
+            "slug": "children",
+            "lft": 1,
+            "rght": 24,
+            "tree_id": 3,
+            "level": 0
+        }
+    },
+    {
+        "model": "product.category",
+        "pk": 4,
+        "fields": {
+            "name": "T-Shirts & Polos",
+            "name_en": "T-Shirts & Polos",
+            "name_ru": "Футболки и поло",
+            "name_tk": "Futbolkalar we polo",
+            "parent": 1,
+            "slug": "men-tshirts",
+            "lft": 2,
+            "rght": 3,
+            "tree_id": 1,
+            "level": 1
+        }
+    },
+    {
+        "model": "product.category",
+        "pk": 5,
+        "fields": {
+            "name": "Shirts",
+            "name_en": "Shirts",
+            "name_ru": "Рубашки",
+            "name_tk": "Köýnekler",
+            "parent": 1,
+            "slug": "men-shirts",
+            "lft": 4,
+            "rght": 5,
+            "tree_id": 1,
+            "level": 1
+        }
+    },
+    {
+        "model": "product.category",
+        "pk": 6,
+        "fields": {
+            "name": "Pants & Jeans",
+            "name_en": "Pants & Jeans",
+            "name_ru": "Брюки и джинсы",
+            "name_tk": "Balaklar we jinsiler",
+            "parent": 1,
+            "slug": "men-pants",
+            "lft": 6,
+            "rght": 7,
+            "tree_id": 1,
+            "level": 1
+        }
+    },
+    {
+        "model": "product.category",
+        "pk": 7,
+        "fields": {
+            "name": "Jackets & Coats",
+            "name_en": "Jackets & Coats",
+            "name_ru": "Куртки и пальто",
+            "name_tk": "Kurtka we paltolar",
+            "parent": 1,
+            "slug": "men-jackets",
+            "lft": 8,
+            "rght": 9,
+            "tree_id": 1,
+            "level": 1
+        }
+    },
+    {
+        "model": "product.category",
+        "pk": 8,
+        "fields": {
+            "name": "Suits",
+            "name_en": "Suits",
+            "name_ru": "Костюмы",
+            "name_tk": "Kostýumlar",
+            "parent": 1,
+            "slug": "men-suits",
+            "lft": 10,
+            "rght": 11,
+            "tree_id": 1,
+            "level": 1
+        }
+    },
+    {
+        "model": "product.category",
+        "pk": 9,
+        "fields": {
+            "name": "Sportswear",
+            "name_en": "Sportswear",
+            "name_ru": "Спортивная одежда",
+            "name_tk": "Sport eşikleri",
+            "parent": 1,
+            "slug": "men-sportswear",
+            "lft": 12,
+            "rght": 13,
+            "tree_id": 1,
+            "level": 1
+        }
+    },
+    {
+        "model": "product.category",
+        "pk": 10,
+        "fields": {
+            "name": "Underwear",
+            "name_en": "Underwear",
+            "name_ru": "Нижнее белье",
+            "name_tk": "Içki geýimler",
+            "parent": 1,
+            "slug": "men-underwear",
+            "lft": 14,
+            "rght": 15,
+            "tree_id": 1,
+            "level": 1
+        }
+    },
+    {
+        "model": "product.category",
+        "pk": 11,
+        "fields": {
+            "name": "Shoes",
+            "name_en": "Shoes",
+            "name_ru": "Обувь",
+            "name_tk": "Aýakgaplar",
+            "parent": 1,
+            "slug": "men-shoes",
+            "lft": 16,
+            "rght": 17,
+            "tree_id": 1,
+            "level": 1
+        }
+    },
+    {
+        "model": "product.category",
+        "pk": 12,
+        "fields": {
+            "name": "Dresses",
+            "name_en": "Dresses",
+            "name_ru": "Платья",
+            "name_tk": "Köýnekler",
+            "parent": 2,
+            "slug": "women-dresses",
+            "lft": 2,
+            "rght": 3,
+            "tree_id": 2,
+            "level": 1
+        }
+    },
+    {
+        "model": "product.category",
+        "pk": 13,
+        "fields": {
+            "name": "Blouses & Tops",
+            "name_en": "Blouses & Tops",
+            "name_ru": "Блузки и топы",
+            "name_tk": "Bluzlar we toplar",
+            "parent": 2,
+            "slug": "women-blouses",
+            "lft": 4,
+            "rght": 5,
+            "tree_id": 2,
+            "level": 1
+        }
+    },
+    {
+        "model": "product.category",
+        "pk": 14,
+        "fields": {
+            "name": "Skirts",
+            "name_en": "Skirts",
+            "name_ru": "Юбки",
+            "name_tk": "Ýubkalar",
+            "parent": 2,
+            "slug": "women-skirts",
+            "lft": 6,
+            "rght": 7,
+            "tree_id": 2,
+            "level": 1
+        }
+    },
+    {
+        "model": "product.category",
+        "pk": 15,
+        "fields": {
+            "name": "Pants & Jeans",
+            "name_en": "Pants & Jeans",
+            "name_ru": "Брюки и джинсы",
+            "name_tk": "Balaklar we jinsiler",
+            "parent": 2,
+            "slug": "women-pants",
+            "lft": 8,
+            "rght": 9,
+            "tree_id": 2,
+            "level": 1
+        }
+    },
+    {
+        "model": "product.category",
+        "pk": 16,
+        "fields": {
+            "name": "Jackets & Coats",
+            "name_en": "Jackets & Coats",
+            "name_ru": "Куртки и пальто",
+            "name_tk": "Kurtka we paltolar",
+            "parent": 2,
+            "slug": "women-jackets",
+            "lft": 10,
+            "rght": 11,
+            "tree_id": 2,
+            "level": 1
+        }
+    },
+    {
+        "model": "product.category",
+        "pk": 17,
+        "fields": {
+            "name": "Sportswear",
+            "name_en": "Sportswear",
+            "name_ru": "Спортивная одежда",
+            "name_tk": "Sport eşikleri",
+            "parent": 2,
+            "slug": "women-sportswear",
+            "lft": 12,
+            "rght": 13,
+            "tree_id": 2,
+            "level": 1
+        }
+    },
+    {
+        "model": "product.category",
+        "pk": 18,
+        "fields": {
+            "name": "Lingerie",
+            "name_en": "Lingerie",
+            "name_ru": "Нижнее белье",
+            "name_tk": "Içki geýimler",
+            "parent": 2,
+            "slug": "women-lingerie",
+            "lft": 14,
+            "rght": 15,
+            "tree_id": 2,
+            "level": 1
+        }
+    },
+    {
+        "model": "product.category",
+        "pk": 19,
+        "fields": {
+            "name": "Shoes",
+            "name_en": "Shoes",
+            "name_ru": "Обувь",
+            "name_tk": "Aýakgaplar",
+            "parent": 2,
+            "slug": "women-shoes",
+            "lft": 16,
+            "rght": 17,
+            "tree_id": 2,
+            "level": 1
+        }
+    },
+    {
+        "model": "product.category",
+        "pk": 20,
+        "fields": {
+            "name": "Boys",
+            "name_en": "Boys",
+            "name_ru": "Мальчики",
+            "name_tk": "Oglanlar",
+            "parent": 3,
+            "slug": "children-boys",
+            "lft": 2,
+            "rght": 7,
+            "tree_id": 3,
+            "level": 1
+        }
+    },
+    {
+        "model": "product.category",
+        "pk": 21,
+        "fields": {
+            "name": "Girls",
+            "name_en": "Girls",
+            "name_ru": "Девочки",
+            "name_tk": "Gyzlar",
+            "parent": 3,
+            "slug": "children-girls",
+            "lft": 8,
+            "rght": 13,
+            "tree_id": 3,
+            "level": 1
+        }
+    },
+    {
+        "model": "product.category",
+        "pk": 22,
+        "fields": {
+            "name": "Baby",
+            "name_en": "Baby",
+            "name_ru": "Малыши",
+            "name_tk": "Bäbekler",
+            "parent": 3,
+            "slug": "children-baby",
+            "lft": 14,
+            "rght": 15,
+            "tree_id": 3,
+            "level": 1
+        }
+    },
+    {
+        "model": "product.category",
+        "pk": 23,
+        "fields": {
+            "name": "T-Shirts",
+            "name_en": "T-Shirts",
+            "name_ru": "Футболки",
+            "name_tk": "Futbolkalar",
+            "parent": 20,
+            "slug": "boys-tshirts",
+            "lft": 3,
+            "rght": 4,
+            "tree_id": 3,
+            "level": 2
+        }
+    },
+    {
+        "model": "product.category",
+        "pk": 24,
+        "fields": {
+            "name": "Pants",
+            "name_en": "Pants",
+            "name_ru": "Брюки",
+            "name_tk": "Balaklar",
+            "parent": 20,
+            "slug": "boys-pants",
+            "lft": 5,
+            "rght": 6,
+            "tree_id": 3,
+            "level": 2
+        }
+    },
+    {
+        "model": "product.category",
+        "pk": 25,
+        "fields": {
+            "name": "Dresses",
+            "name_en": "Dresses",
+            "name_ru": "Платья",
+            "name_tk": "Köýnekler",
+            "parent": 21,
+            "slug": "girls-dresses",
+            "lft": 9,
+            "rght": 10,
+            "tree_id": 3,
+            "level": 2
+        }
+    },
+    {
+        "model": "product.category",
+        "pk": 26,
+        "fields": {
+            "name": "Tops",
+            "name_en": "Tops",
+            "name_ru": "Топы",
+            "name_tk": "Toplar",
+            "parent": 21,
+            "slug": "girls-tops",
+            "lft": 11,
+            "rght": 12,
+            "tree_id": 3,
+            "level": 2
+        }
+    },
+    {
+        "model": "product.category",
+        "pk": 32,
+        "fields": {
+            "name": "Jewelry",
+            "name_en": "Jewelry",
+            "name_ru": "Бижутерия",
+            "name_tk": "Şaý-sepler",
+            "parent": 2,
+            "slug": "women-jewelry",
+            "lft": 18,
+            "rght": 19,
+            "tree_id": 2,
+            "level": 1
+        }
+    },
+    {
+        "model": "product.category",
+        "pk": 33,
+        "fields": {
+            "name": "Accessories",
+            "name_en": "Accessories",
+            "name_ru": "Аксессуары",
+            "name_tk": "Aksessuarlar",
+            "parent": 1,
+            "slug": "men-accessories",
+            "lft": 18,
+            "rght": 25,
+            "tree_id": 1,
+            "level": 1
+        }
+    },
+    {
+        "model": "product.category",
+        "pk": 34,
+        "fields": {
+            "name": "Accessories",
+            "name_en": "Accessories",
+            "name_ru": "Аксессуары",
+            "name_tk": "Aksessuarlar",
+            "parent": 2,
+            "slug": "women-accessories",
+            "lft": 20,
+            "rght": 33,
+            "tree_id": 2,
+            "level": 1
+        }
+    },
+    {
+        "model": "product.category",
+        "pk": 35,
+        "fields": {
+            "name": "Accessories",
+            "name_en": "Accessories",
+            "name_ru": "Аксессуары",
+            "name_tk": "Aksessuarlar",
+            "parent": 3,
+            "slug": "children-accessories",
+            "lft": 16,
+            "rght": 23,
+            "tree_id": 3,
+            "level": 1
+        }
+    },
+    {
+        "model": "product.category",
+        "pk": 36,
+        "fields": {
+            "name": "Belts",
+            "name_en": "Belts",
+            "name_ru": "Ремни",
+            "name_tk": "Guşaklar",
+            "parent": 33,
+            "slug": "men-accessories-belts",
+            "lft": 19,
+            "rght": 20,
+            "tree_id": 1,
+            "level": 2
+        }
+    },
+    {
+        "model": "product.category",
+        "pk": 37,
+        "fields": {
+            "name": "Wallets",
+            "name_en": "Wallets",
+            "name_ru": "Кошельки",
+            "name_tk": "Gapjyklar",
+            "parent": 33,
+            "slug": "men-accessories-wallets",
+            "lft": 21,
+            "rght": 22,
+            "tree_id": 1,
+            "level": 2
+        }
+    },
+    {
+        "model": "product.category",
+        "pk": 38,
+        "fields": {
+            "name": "Ties",
+            "name_en": "Ties",
+            "name_ru": "Галстуки",
+            "name_tk": "Galstuklar",
+            "parent": 33,
+            "slug": "men-accessories-ties",
+            "lft": 23,
+            "rght": 24,
+            "tree_id": 1,
+            "level": 2
+        }
+    },
+    {
+        "model": "product.category",
+        "pk": 39,
+        "fields": {
+            "name": "Bags",
+            "name_en": "Bags",
+            "name_ru": "Сумки",
+            "name_tk": "Sumkalar",
+            "parent": 34,
+            "slug": "women-accessories-bags",
+            "lft": 21,
+            "rght": 22,
+            "tree_id": 2,
+            "level": 2
+        }
+    },
+    {
+        "model": "product.category",
+        "pk": 40,
+        "fields": {
+            "name": "Scarves",
+            "name_en": "Scarves",
+            "name_ru": "Шарфы",
+            "name_tk": "Şarflar",
+            "parent": 34,
+            "slug": "women-accessories-scarves",
+            "lft": 23,
+            "rght": 24,
+            "tree_id": 2,
+            "level": 2
+        }
+    },
+    {
+        "model": "product.category",
+        "pk": 41,
+        "fields": {
+            "name": "Belts",
+            "name_en": "Belts",
+            "name_ru": "Ремни",
+            "name_tk": "Guşaklar",
+            "parent": 34,
+            "slug": "women-accessories-belts",
+            "lft": 25,
+            "rght": 26,
+            "tree_id": 2,
+            "level": 2
+        }
+    },
+    {
+        "model": "product.category",
+        "pk": 42,
+        "fields": {
+            "name": "Sunglasses",
+            "name_en": "Sunglasses",
+            "name_ru": "Очки",
+            "name_tk": "Äýnekler",
+            "parent": 34,
+            "slug": "women-accessories-sunglasses",
+            "lft": 27,
+            "rght": 28,
+            "tree_id": 2,
+            "level": 2
+        }
+    },
+    {
+        "model": "product.category",
+        "pk": 43,
+        "fields": {
+            "name": "Hats",
+            "name_en": "Hats",
+            "name_ru": "Шапки",
+            "name_tk": "Başgaplar",
+            "parent": 35,
+            "slug": "children-accessories-hats",
+            "lft": 17,
+            "rght": 18,
+            "tree_id": 3,
+            "level": 2
+        }
+    },
+    {
+        "model": "product.category",
+        "pk": 44,
+        "fields": {
+            "name": "Backpacks",
+            "name_en": "Backpacks",
+            "name_ru": "Рюкзаки",
+            "name_tk": "Rýukzaklar",
+            "parent": 35,
+            "slug": "children-accessories-backpacks",
+            "lft": 19,
+            "rght": 20,
+            "tree_id": 3,
+            "level": 2
+        }
+    }
+]
