@@ -1,0 +1,2400 @@
+[
+{
+  "model": "product.category",
+  "pk": 1,
+  "fields": {
+    "name": "Man",
+    "name_en": "Man",
+    "name_ru": "Мужчина",
+    "name_tk": "Oglan",
+    "parent": null,
+    "slug": "man",
+    "lft": 1,
+    "rght": 28,
+    "tree_id": 1,
+    "level": 0
+  }
+},
+{
+  "model": "product.category",
+  "pk": 2,
+  "fields": {
+    "name": "Women",
+    "name_en": "Women",
+    "name_ru": "Женщины",
+    "name_tk": "Zenanlar",
+    "parent": null,
+    "slug": "women",
+    "lft": 1,
+    "rght": 30,
+    "tree_id": 2,
+    "level": 0
+  }
+},
+{
+  "model": "product.category",
+  "pk": 3,
+  "fields": {
+    "name": "Children",
+    "name_en": "Children",
+    "name_ru": "Дети",
+    "name_tk": "Çagalar",
+    "parent": null,
+    "slug": "children",
+    "lft": 1,
+    "rght": 22,
+    "tree_id": 3,
+    "level": 0
+  }
+},
+{
+  "model": "product.category",
+  "pk": 4,
+  "fields": {
+    "name": "T-Shirts & Polos",
+    "name_en": "T-Shirts & Polos",
+    "name_ru": "Футболки и поло",
+    "name_tk": "Futbolkalar we polo",
+    "parent": 1,
+    "slug": "men-tshirts",
+    "lft": 2,
+    "rght": 3,
+    "tree_id": 1,
+    "level": 1
+  }
+},
+{
+  "model": "product.category",
+  "pk": 5,
+  "fields": {
+    "name": "Shirts",
+    "name_en": "Shirts",
+    "name_ru": "Рубашки",
+    "name_tk": "Köýnekler",
+    "parent": 1,
+    "slug": "men-shirts",
+    "lft": 4,
+    "rght": 5,
+    "tree_id": 1,
+    "level": 1
+  }
+},
+{
+  "model": "product.category",
+  "pk": 6,
+  "fields": {
+    "name": "Pants & Jeans",
+    "name_en": "Pants & Jeans",
+    "name_ru": "Брюки и джинсы",
+    "name_tk": "Balaklar we jinsiler",
+    "parent": 1,
+    "slug": "men-pants",
+    "lft": 6,
+    "rght": 7,
+    "tree_id": 1,
+    "level": 1
+  }
+},
+{
+  "model": "product.category",
+  "pk": 7,
+  "fields": {
+    "name": "Jackets & Coats",
+    "name_en": "Jackets & Coats",
+    "name_ru": "Куртки и пальто",
+    "name_tk": "Kurtka we paltolar",
+    "parent": 1,
+    "slug": "men-jackets",
+    "lft": 8,
+    "rght": 9,
+    "tree_id": 1,
+    "level": 1
+  }
+},
+{
+  "model": "product.category",
+  "pk": 8,
+  "fields": {
+    "name": "Suits",
+    "name_en": "Suits",
+    "name_ru": "Костюмы",
+    "name_tk": "Kostýumlar",
+    "parent": 1,
+    "slug": "men-suits",
+    "lft": 10,
+    "rght": 11,
+    "tree_id": 1,
+    "level": 1
+  }
+},
+{
+  "model": "product.category",
+  "pk": 9,
+  "fields": {
+    "name": "Sportswear",
+    "name_en": "Sportswear",
+    "name_ru": "Спортивная одежда",
+    "name_tk": "Sport eşikleri",
+    "parent": 1,
+    "slug": "men-sportswear",
+    "lft": 12,
+    "rght": 13,
+    "tree_id": 1,
+    "level": 1
+  }
+},
+{
+  "model": "product.category",
+  "pk": 10,
+  "fields": {
+    "name": "Underwear",
+    "name_en": "Underwear",
+    "name_ru": "Нижнее белье",
+    "name_tk": "Içki geýimler",
+    "parent": 1,
+    "slug": "men-underwear",
+    "lft": 14,
+    "rght": 15,
+    "tree_id": 1,
+    "level": 1
+  }
+},
+{
+  "model": "product.category",
+  "pk": 11,
+  "fields": {
+    "name": "Shoes",
+    "name_en": "Shoes",
+    "name_ru": "Обувь",
+    "name_tk": "Aýakgaplar",
+    "parent": 1,
+    "slug": "men-shoes",
+    "lft": 16,
+    "rght": 17,
+    "tree_id": 1,
+    "level": 1
+  }
+},
+{
+  "model": "product.category",
+  "pk": 12,
+  "fields": {
+    "name": "Dresses",
+    "name_en": "Dresses",
+    "name_ru": "Платья",
+    "name_tk": "Köýnekler",
+    "parent": 2,
+    "slug": "women-dresses",
+    "lft": 2,
+    "rght": 3,
+    "tree_id": 2,
+    "level": 1
+  }
+},
+{
+  "model": "product.category",
+  "pk": 13,
+  "fields": {
+    "name": "Blouses & Tops",
+    "name_en": "Blouses & Tops",
+    "name_ru": "Блузки и топы",
+    "name_tk": "Bluzlar we toplar",
+    "parent": 2,
+    "slug": "women-blouses",
+    "lft": 4,
+    "rght": 5,
+    "tree_id": 2,
+    "level": 1
+  }
+},
+{
+  "model": "product.category",
+  "pk": 14,
+  "fields": {
+    "name": "Skirts",
+    "name_en": "Skirts",
+    "name_ru": "Юбки",
+    "name_tk": "Ýubkalar",
+    "parent": 2,
+    "slug": "women-skirts",
+    "lft": 6,
+    "rght": 7,
+    "tree_id": 2,
+    "level": 1
+  }
+},
+{
+  "model": "product.category",
+  "pk": 15,
+  "fields": {
+    "name": "Pants & Jeans",
+    "name_en": "Pants & Jeans",
+    "name_ru": "Брюки и джинсы",
+    "name_tk": "Balaklar we jinsiler",
+    "parent": 2,
+    "slug": "women-pants",
+    "lft": 8,
+    "rght": 9,
+    "tree_id": 2,
+    "level": 1
+  }
+},
+{
+  "model": "product.category",
+  "pk": 16,
+  "fields": {
+    "name": "Jackets & Coats",
+    "name_en": "Jackets & Coats",
+    "name_ru": "Куртки и пальто",
+    "name_tk": "Kurtka we paltolar",
+    "parent": 2,
+    "slug": "women-jackets",
+    "lft": 10,
+    "rght": 11,
+    "tree_id": 2,
+    "level": 1
+  }
+},
+{
+  "model": "product.category",
+  "pk": 17,
+  "fields": {
+    "name": "Sportswear",
+    "name_en": "Sportswear",
+    "name_ru": "Спортивная одежда",
+    "name_tk": "Sport eşikleri",
+    "parent": 2,
+    "slug": "women-sportswear",
+    "lft": 12,
+    "rght": 13,
+    "tree_id": 2,
+    "level": 1
+  }
+},
+{
+  "model": "product.category",
+  "pk": 18,
+  "fields": {
+    "name": "Lingerie",
+    "name_en": "Lingerie",
+    "name_ru": "Нижнее белье",
+    "name_tk": "Içki geýimler",
+    "parent": 2,
+    "slug": "women-lingerie",
+    "lft": 14,
+    "rght": 15,
+    "tree_id": 2,
+    "level": 1
+  }
+},
+{
+  "model": "product.category",
+  "pk": 19,
+  "fields": {
+    "name": "Shoes",
+    "name_en": "Shoes",
+    "name_ru": "Обувь",
+    "name_tk": "Aýakgaplar",
+    "parent": 2,
+    "slug": "women-shoes",
+    "lft": 16,
+    "rght": 17,
+    "tree_id": 2,
+    "level": 1
+  }
+},
+{
+  "model": "product.category",
+  "pk": 20,
+  "fields": {
+    "name": "Boys",
+    "name_en": "Boys",
+    "name_ru": "Мальчики",
+    "name_tk": "Oglanlar",
+    "parent": 3,
+    "slug": "children-boys",
+    "lft": 2,
+    "rght": 7,
+    "tree_id": 3,
+    "level": 1
+  }
+},
+{
+  "model": "product.category",
+  "pk": 21,
+  "fields": {
+    "name": "Girls",
+    "name_en": "Girls",
+    "name_ru": "Девочки",
+    "name_tk": "Gyzlar",
+    "parent": 3,
+    "slug": "children-girls",
+    "lft": 8,
+    "rght": 13,
+    "tree_id": 3,
+    "level": 1
+  }
+},
+{
+  "model": "product.category",
+  "pk": 22,
+  "fields": {
+    "name": "Baby",
+    "name_en": "Baby",
+    "name_ru": "Малыши",
+    "name_tk": "Bäbekler",
+    "parent": 3,
+    "slug": "children-baby",
+    "lft": 14,
+    "rght": 15,
+    "tree_id": 3,
+    "level": 1
+  }
+},
+{
+  "model": "product.category",
+  "pk": 23,
+  "fields": {
+    "name": "T-Shirts",
+    "name_en": "T-Shirts",
+    "name_ru": "Футболки",
+    "name_tk": "Futbolkalar",
+    "parent": 20,
+    "slug": "boys-tshirts",
+    "lft": 3,
+    "rght": 4,
+    "tree_id": 3,
+    "level": 2
+  }
+},
+{
+  "model": "product.category",
+  "pk": 24,
+  "fields": {
+    "name": "Pants",
+    "name_en": "Pants",
+    "name_ru": "Брюки",
+    "name_tk": "Balaklar",
+    "parent": 20,
+    "slug": "boys-pants",
+    "lft": 5,
+    "rght": 6,
+    "tree_id": 3,
+    "level": 2
+  }
+},
+{
+  "model": "product.category",
+  "pk": 25,
+  "fields": {
+    "name": "Dresses",
+    "name_en": "Dresses",
+    "name_ru": "Платья",
+    "name_tk": "Köýnekler",
+    "parent": 21,
+    "slug": "girls-dresses",
+    "lft": 9,
+    "rght": 10,
+    "tree_id": 3,
+    "level": 2
+  }
+},
+{
+  "model": "product.category",
+  "pk": 26,
+  "fields": {
+    "name": "Tops",
+    "name_en": "Tops",
+    "name_ru": "Топы",
+    "name_tk": "Toplar",
+    "parent": 21,
+    "slug": "girls-tops",
+    "lft": 11,
+    "rght": 12,
+    "tree_id": 3,
+    "level": 2
+  }
+},
+{
+  "model": "product.category",
+  "pk": 32,
+  "fields": {
+    "name": "Jewelry",
+    "name_en": "Jewelry",
+    "name_ru": "Бижутерия",
+    "name_tk": "Şaý-sepler",
+    "parent": 2,
+    "slug": "women-jewelry",
+    "lft": 18,
+    "rght": 19,
+    "tree_id": 2,
+    "level": 1
+  }
+},
+{
+  "model": "product.category",
+  "pk": 33,
+  "fields": {
+    "name": "Accessories",
+    "name_en": "Accessories",
+    "name_ru": "Аксессуары",
+    "name_tk": "Aksessuarlar",
+    "parent": 1,
+    "slug": "men-accessories",
+    "lft": 18,
+    "rght": 27,
+    "tree_id": 1,
+    "level": 1
+  }
+},
+{
+  "model": "product.category",
+  "pk": 34,
+  "fields": {
+    "name": "Accessories",
+    "name_en": "Accessories",
+    "name_ru": "Аксессуары",
+    "name_tk": "Aksessuarlar",
+    "parent": 2,
+    "slug": "women-accessories",
+    "lft": 20,
+    "rght": 29,
+    "tree_id": 2,
+    "level": 1
+  }
+},
+{
+  "model": "product.category",
+  "pk": 35,
+  "fields": {
+    "name": "Accessories",
+    "name_en": "Accessories",
+    "name_ru": "Аксессуары",
+    "name_tk": "Aksessuarlar",
+    "parent": 3,
+    "slug": "children-accessories",
+    "lft": 16,
+    "rght": 21,
+    "tree_id": 3,
+    "level": 1
+  }
+},
+{
+  "model": "product.category",
+  "pk": 36,
+  "fields": {
+    "name": "Belts",
+    "name_en": "Belts",
+    "name_ru": "Ремни",
+    "name_tk": "Guşaklar",
+    "parent": 33,
+    "slug": "men-accessories-belts",
+    "lft": 19,
+    "rght": 20,
+    "tree_id": 1,
+    "level": 2
+  }
+},
+{
+  "model": "product.category",
+  "pk": 37,
+  "fields": {
+    "name": "Wallets",
+    "name_en": "Wallets",
+    "name_ru": "Кошельки",
+    "name_tk": "Gapjyklar",
+    "parent": 33,
+    "slug": "men-accessories-wallets",
+    "lft": 21,
+    "rght": 22,
+    "tree_id": 1,
+    "level": 2
+  }
+},
+{
+  "model": "product.category",
+  "pk": 38,
+  "fields": {
+    "name": "Ties",
+    "name_en": "Ties",
+    "name_ru": "Галстуки",
+    "name_tk": "Galstuklar",
+    "parent": 33,
+    "slug": "men-accessories-ties",
+    "lft": 23,
+    "rght": 24,
+    "tree_id": 1,
+    "level": 2
+  }
+},
+{
+  "model": "product.category",
+  "pk": 39,
+  "fields": {
+    "name": "Bags",
+    "name_en": "Bags",
+    "name_ru": "Сумки",
+    "name_tk": "Sumkalar",
+    "parent": 34,
+    "slug": "women-accessories-bags",
+    "lft": 21,
+    "rght": 22,
+    "tree_id": 2,
+    "level": 2
+  }
+},
+{
+  "model": "product.category",
+  "pk": 40,
+  "fields": {
+    "name": "Scarves",
+    "name_en": "Scarves",
+    "name_ru": "Шарфы",
+    "name_tk": "Şarflar",
+    "parent": 34,
+    "slug": "women-accessories-scarves",
+    "lft": 23,
+    "rght": 24,
+    "tree_id": 2,
+    "level": 2
+  }
+},
+{
+  "model": "product.category",
+  "pk": 41,
+  "fields": {
+    "name": "Belts",
+    "name_en": "Belts",
+    "name_ru": "Ремни",
+    "name_tk": "Guşaklar",
+    "parent": 34,
+    "slug": "women-accessories-belts",
+    "lft": 25,
+    "rght": 26,
+    "tree_id": 2,
+    "level": 2
+  }
+},
+{
+  "model": "product.category",
+  "pk": 42,
+  "fields": {
+    "name": "Sunglasses",
+    "name_en": "Sunglasses",
+    "name_ru": "Очки",
+    "name_tk": "Äýnekler",
+    "parent": 34,
+    "slug": "women-accessories-sunglasses",
+    "lft": 27,
+    "rght": 28,
+    "tree_id": 2,
+    "level": 2
+  }
+},
+{
+  "model": "product.category",
+  "pk": 43,
+  "fields": {
+    "name": "Hats",
+    "name_en": "Hats",
+    "name_ru": "Шапки",
+    "name_tk": "Başgaplar",
+    "parent": 35,
+    "slug": "children-accessories-hats",
+    "lft": 17,
+    "rght": 18,
+    "tree_id": 3,
+    "level": 2
+  }
+},
+{
+  "model": "product.category",
+  "pk": 44,
+  "fields": {
+    "name": "Backpacks",
+    "name_en": "Backpacks",
+    "name_ru": "Рюкзаки",
+    "name_tk": "Rýukzaklar",
+    "parent": 35,
+    "slug": "children-accessories-backpacks",
+    "lft": 19,
+    "rght": 20,
+    "tree_id": 3,
+    "level": 2
+  }
+},
+{
+  "model": "product.category",
+  "pk": 45,
+  "fields": {
+    "name": "Watches",
+    "name_en": "Watches",
+    "name_ru": "Часы",
+    "name_tk": "Sagat",
+    "parent": 33,
+    "slug": "watches",
+    "lft": 25,
+    "rght": 26,
+    "tree_id": 1,
+    "level": 2
+  }
+},
+{
+  "model": "product.size",
+  "pk": 1,
+  "fields": {
+    "name": "XS",
+    "size_type": "cloth",
+    "order": 10
+  }
+},
+{
+  "model": "product.size",
+  "pk": 2,
+  "fields": {
+    "name": "S",
+    "size_type": "cloth",
+    "order": 20
+  }
+},
+{
+  "model": "product.size",
+  "pk": 3,
+  "fields": {
+    "name": "M",
+    "size_type": "cloth",
+    "order": 30
+  }
+},
+{
+  "model": "product.size",
+  "pk": 4,
+  "fields": {
+    "name": "L",
+    "size_type": "cloth",
+    "order": 40
+  }
+},
+{
+  "model": "product.size",
+  "pk": 5,
+  "fields": {
+    "name": "XL",
+    "size_type": "cloth",
+    "order": 50
+  }
+},
+{
+  "model": "product.size",
+  "pk": 6,
+  "fields": {
+    "name": "XXL",
+    "size_type": "cloth",
+    "order": 60
+  }
+},
+{
+  "model": "product.size",
+  "pk": 7,
+  "fields": {
+    "name": "35",
+    "size_type": "shoe",
+    "order": 35
+  }
+},
+{
+  "model": "product.size",
+  "pk": 8,
+  "fields": {
+    "name": "36",
+    "size_type": "shoe",
+    "order": 36
+  }
+},
+{
+  "model": "product.size",
+  "pk": 9,
+  "fields": {
+    "name": "37",
+    "size_type": "shoe",
+    "order": 37
+  }
+},
+{
+  "model": "product.size",
+  "pk": 10,
+  "fields": {
+    "name": "38",
+    "size_type": "shoe",
+    "order": 38
+  }
+},
+{
+  "model": "product.size",
+  "pk": 11,
+  "fields": {
+    "name": "39",
+    "size_type": "shoe",
+    "order": 39
+  }
+},
+{
+  "model": "product.size",
+  "pk": 12,
+  "fields": {
+    "name": "40",
+    "size_type": "shoe",
+    "order": 40
+  }
+},
+{
+  "model": "product.size",
+  "pk": 13,
+  "fields": {
+    "name": "41",
+    "size_type": "shoe",
+    "order": 41
+  }
+},
+{
+  "model": "product.size",
+  "pk": 14,
+  "fields": {
+    "name": "42",
+    "size_type": "shoe",
+    "order": 42
+  }
+},
+{
+  "model": "product.size",
+  "pk": 15,
+  "fields": {
+    "name": "43",
+    "size_type": "shoe",
+    "order": 43
+  }
+},
+{
+  "model": "product.size",
+  "pk": 16,
+  "fields": {
+    "name": "44",
+    "size_type": "shoe",
+    "order": 44
+  }
+},
+{
+  "model": "product.size",
+  "pk": 17,
+  "fields": {
+    "name": "45",
+    "size_type": "shoe",
+    "order": 45
+  }
+},
+{
+  "model": "product.size",
+  "pk": 18,
+  "fields": {
+    "name": "46",
+    "size_type": "shoe",
+    "order": 46
+  }
+},
+{
+  "model": "product.product",
+  "pk": 101,
+  "fields": {
+    "category": 4,
+    "title": "Cotton Crew Neck T-Shirt",
+    "title_en": "Cotton Crew Neck T-Shirt",
+    "title_ru": "Хлопковая футболка с круглым вырезом",
+    "title_tk": "Pagta mataly futbolka",
+    "description": "Classic fit, 100% cotton.",
+    "description_en": "Classic fit, 100% cotton.",
+    "description_ru": null,
+    "description_tk": null,
+    "price": "19.99",
+    "image": "",
+    "stock": 50,
+    "is_active": true,
+    "created_at": "2026-01-20"
+  }
+},
+{
+  "model": "product.product",
+  "pk": 102,
+  "fields": {
+    "category": 4,
+    "title": "Slim Fit Polo Shirt",
+    "title_en": "Slim Fit Polo Shirt",
+    "title_ru": "Поло Slim Fit",
+    "title_tk": "Slim Fit Polo köýnekçe",
+    "description": "Sporty and casual look.",
+    "description_en": "Sporty and casual look.",
+    "description_ru": null,
+    "description_tk": null,
+    "price": "29.99",
+    "image": "",
+    "stock": 40,
+    "is_active": true,
+    "created_at": "2026-01-20"
+  }
+},
+{
+  "model": "product.product",
+  "pk": 103,
+  "fields": {
+    "category": 5,
+    "title": "Oxford White Shirt",
+    "title_en": "Oxford White Shirt",
+    "title_ru": "Белая рубашка Оксфорд",
+    "title_tk": "Ak Oksford köýnegi",
+    "description": "Perfect for office wear.",
+    "description_en": "Perfect for office wear.",
+    "description_ru": null,
+    "description_tk": null,
+    "price": "49.99",
+    "image": "",
+    "stock": 30,
+    "is_active": true,
+    "created_at": "2026-01-21"
+  }
+},
+{
+  "model": "product.product",
+  "pk": 104,
+  "fields": {
+    "category": 5,
+    "title": "Checkered Flannel Shirt",
+    "title_en": "Checkered Flannel Shirt",
+    "title_ru": "Клетчатая фланелевая рубашка",
+    "title_tk": "Kletkaly flanel köýnegi",
+    "description": "Warm and comfortable.",
+    "description_en": "Warm and comfortable.",
+    "description_ru": null,
+    "description_tk": null,
+    "price": "39.99",
+    "image": "",
+    "stock": 25,
+    "is_active": true,
+    "created_at": "2026-01-21"
+  }
+},
+{
+  "model": "product.product",
+  "pk": 105,
+  "fields": {
+    "category": 6,
+    "title": "Classic Blue Jeans",
+    "title_en": "Classic Blue Jeans",
+    "title_ru": "Классические синие джинсы",
+    "title_tk": "Klassiki gök jinsi",
+    "description": "Durable denim fabric.",
+    "description_en": "Durable denim fabric.",
+    "description_ru": null,
+    "description_tk": null,
+    "price": "59.99",
+    "image": "",
+    "stock": 60,
+    "is_active": true,
+    "created_at": "2026-01-21"
+  }
+},
+{
+  "model": "product.product",
+  "pk": 106,
+  "fields": {
+    "category": 6,
+    "title": "Black Chino Pants",
+    "title_en": "Black Chino Pants",
+    "title_ru": "Черные брюки чинос",
+    "title_tk": "Gara Çinos balagy",
+    "description": "Versatile for any occasion.",
+    "description_en": "Versatile for any occasion.",
+    "description_ru": null,
+    "description_tk": null,
+    "price": "45.00",
+    "image": "",
+    "stock": 35,
+    "is_active": true,
+    "created_at": "2026-01-21"
+  }
+},
+{
+  "model": "product.product",
+  "pk": 107,
+  "fields": {
+    "category": 7,
+    "title": "Leather Biker Jacket",
+    "title_en": "Leather Biker Jacket",
+    "title_ru": "Кожаная куртка-косуха",
+    "title_tk": "Deri baýker kurtkasy",
+    "description": "Genuine leather, stylish cut.",
+    "description_en": "Genuine leather, stylish cut.",
+    "description_ru": null,
+    "description_tk": null,
+    "price": "199.99",
+    "image": "",
+    "stock": 10,
+    "is_active": true,
+    "created_at": "2026-01-22"
+  }
+},
+{
+  "model": "product.product",
+  "pk": 108,
+  "fields": {
+    "category": 7,
+    "title": "Winter Parka Coat",
+    "title_en": "Winter Parka Coat",
+    "title_ru": "Зимняя парка",
+    "title_tk": "Gysky parka",
+    "description": "Insulated for cold weather.",
+    "description_en": "Insulated for cold weather.",
+    "description_ru": null,
+    "description_tk": null,
+    "price": "149.99",
+    "image": "",
+    "stock": 15,
+    "is_active": true,
+    "created_at": "2026-01-22"
+  }
+},
+{
+  "model": "product.product",
+  "pk": 109,
+  "fields": {
+    "category": 8,
+    "title": "Navy Blue Business Suit",
+    "title_en": "Navy Blue Business Suit",
+    "title_ru": "Темно-синий деловой костюм",
+    "title_tk": "Gök delowy kostýum",
+    "description": "Premium wool blend.",
+    "description_en": "Premium wool blend.",
+    "description_ru": null,
+    "description_tk": null,
+    "price": "299.99",
+    "image": "",
+    "stock": 8,
+    "is_active": true,
+    "created_at": "2026-01-22"
+  }
+},
+{
+  "model": "product.product",
+  "pk": 110,
+  "fields": {
+    "category": 9,
+    "title": "Men's Tracksuit Set",
+    "title_en": "Men's Tracksuit Set",
+    "title_ru": "Мужской спортивный костюм",
+    "title_tk": "Erkek sport lybasy",
+    "description": "Jacket and pants set.",
+    "description_en": "Jacket and pants set.",
+    "description_ru": null,
+    "description_tk": null,
+    "price": "79.99",
+    "image": "",
+    "stock": 20,
+    "is_active": true,
+    "created_at": "2026-01-22"
+  }
+},
+{
+  "model": "product.product",
+  "pk": 111,
+  "fields": {
+    "category": 11,
+    "title": "Leather Dress Shoes",
+    "title_en": "Leather Dress Shoes",
+    "title_ru": "Кожаные туфли",
+    "title_tk": "Deri köwüşler",
+    "description": "Elegant formal shoes.",
+    "description_en": "Elegant formal shoes.",
+    "description_ru": null,
+    "description_tk": null,
+    "price": "120.00",
+    "image": "",
+    "stock": 12,
+    "is_active": true,
+    "created_at": "2026-01-23"
+  }
+},
+{
+  "model": "product.product",
+  "pk": 112,
+  "fields": {
+    "category": 11,
+    "title": "Running Sneakers",
+    "title_en": "Running Sneakers",
+    "title_ru": "Беговые кроссовки",
+    "title_tk": "Ylgaw krossowkasy",
+    "description": "Lightweight and breathable.",
+    "description_en": "Lightweight and breathable.",
+    "description_ru": null,
+    "description_tk": null,
+    "price": "89.99",
+    "image": "",
+    "stock": 25,
+    "is_active": true,
+    "created_at": "2026-01-23"
+  }
+},
+{
+  "model": "product.product",
+  "pk": 113,
+  "fields": {
+    "category": 12,
+    "title": "Summer Floral Dress",
+    "title_en": "Summer Floral Dress",
+    "title_ru": "Летнее платье с цветами",
+    "title_tk": "Gülli tomus köýnegi",
+    "description": "Light chiffon fabric.",
+    "description_en": "Light chiffon fabric.",
+    "description_ru": null,
+    "description_tk": null,
+    "price": "65.00",
+    "image": "",
+    "stock": 20,
+    "is_active": true,
+    "created_at": "2026-01-23"
+  }
+},
+{
+  "model": "product.product",
+  "pk": 114,
+  "fields": {
+    "category": 12,
+    "title": "Black Evening Gown",
+    "title_en": "Black Evening Gown",
+    "title_ru": "Черное вечернее платье",
+    "title_tk": "Gara agşam köýnegi",
+    "description": "Elegant floor-length dress.",
+    "description_en": "Elegant floor-length dress.",
+    "description_ru": null,
+    "description_tk": null,
+    "price": "150.00",
+    "image": "",
+    "stock": 5,
+    "is_active": true,
+    "created_at": "2026-01-23"
+  }
+},
+{
+  "model": "product.product",
+  "pk": 115,
+  "fields": {
+    "category": 13,
+    "title": "Silk Blouse",
+    "title_en": "Silk Blouse",
+    "title_ru": "Шелковая блузка",
+    "title_tk": "Ýüpek bluza",
+    "description": "Soft and luxurious feel.",
+    "description_en": "Soft and luxurious feel.",
+    "description_ru": null,
+    "description_tk": null,
+    "price": "55.00",
+    "image": "",
+    "stock": 15,
+    "is_active": true,
+    "created_at": "2026-01-24"
+  }
+},
+{
+  "model": "product.product",
+  "pk": 116,
+  "fields": {
+    "category": 13,
+    "title": "Casual Cotton Top",
+    "title_en": "Casual Cotton Top",
+    "title_ru": "Повседневный хлопковый топ",
+    "title_tk": "Gündelik pagta top",
+    "description": "Great for everyday wear.",
+    "description_en": "Great for everyday wear.",
+    "description_ru": null,
+    "description_tk": null,
+    "price": "25.00",
+    "image": "",
+    "stock": 30,
+    "is_active": true,
+    "created_at": "2026-01-24"
+  }
+},
+{
+  "model": "product.product",
+  "pk": 117,
+  "fields": {
+    "category": 14,
+    "title": "Pleated Midi Skirt",
+    "title_en": "Pleated Midi Skirt",
+    "title_ru": "Плиссированная юбка миди",
+    "title_tk": "Midi ýubka",
+    "description": "Stylish and trendy.",
+    "description_en": "Stylish and trendy.",
+    "description_ru": null,
+    "description_tk": null,
+    "price": "45.00",
+    "image": "",
+    "stock": 20,
+    "is_active": true,
+    "created_at": "2026-01-24"
+  }
+},
+{
+  "model": "product.product",
+  "pk": 118,
+  "fields": {
+    "category": 15,
+    "title": "Skinny High-Waist Jeans",
+    "title_en": "Skinny High-Waist Jeans",
+    "title_ru": "Джинсы скинни с высокой талией",
+    "title_tk": "Sqinny jinsi",
+    "description": "Form-fitting denim.",
+    "description_en": "Form-fitting denim.",
+    "description_ru": null,
+    "description_tk": null,
+    "price": "65.00",
+    "image": "",
+    "stock": 40,
+    "is_active": true,
+    "created_at": "2026-01-24"
+  }
+},
+{
+  "model": "product.product",
+  "pk": 119,
+  "fields": {
+    "category": 16,
+    "title": "Beige Trench Coat",
+    "title_en": "Beige Trench Coat",
+    "title_ru": "Бежевый тренч",
+    "title_tk": "Bež plaş",
+    "description": "Water-resistant classic coat.",
+    "description_en": "Water-resistant classic coat.",
+    "description_ru": null,
+    "description_tk": null,
+    "price": "120.00",
+    "image": "",
+    "stock": 10,
+    "is_active": true,
+    "created_at": "2026-01-25"
+  }
+},
+{
+  "model": "product.product",
+  "pk": 120,
+  "fields": {
+    "category": 17,
+    "title": "Yoga Leggings",
+    "title_en": "Yoga Leggings",
+    "title_ru": "Леггинсы для йоги",
+    "title_tk": "Ýoga üçin legginsy",
+    "description": "Stretchy and breathable.",
+    "description_en": "Stretchy and breathable.",
+    "description_ru": null,
+    "description_tk": null,
+    "price": "35.00",
+    "image": "",
+    "stock": 50,
+    "is_active": true,
+    "created_at": "2026-01-25"
+  }
+},
+{
+  "model": "product.product",
+  "pk": 121,
+  "fields": {
+    "category": 19,
+    "title": "Red Stiletto Heels",
+    "title_en": "Red Stiletto Heels",
+    "title_ru": "Красные туфли на шпильке",
+    "title_tk": "Gyzyl ökjeli köwüş",
+    "description": "For special occasions.",
+    "description_en": "For special occasions.",
+    "description_ru": null,
+    "description_tk": null,
+    "price": "95.00",
+    "image": "",
+    "stock": 10,
+    "is_active": true,
+    "created_at": "2026-01-25"
+  }
+},
+{
+  "model": "product.product",
+  "pk": 122,
+  "fields": {
+    "category": 19,
+    "title": "Comfortable Flats",
+    "title_en": "Comfortable Flats",
+    "title_ru": "Удобные балетки",
+    "title_tk": "Rahat baletkalar",
+    "description": "Soft leather flats.",
+    "description_en": "Soft leather flats.",
+    "description_ru": null,
+    "description_tk": null,
+    "price": "50.00",
+    "image": "",
+    "stock": 30,
+    "is_active": true,
+    "created_at": "2026-01-25"
+  }
+},
+{
+  "model": "product.product",
+  "pk": 123,
+  "fields": {
+    "category": 23,
+    "title": "Boys' Graphic T-Shirt",
+    "title_en": "Boys' Graphic T-Shirt",
+    "title_ru": "Футболка с принтом для мальчиков",
+    "title_tk": "Oglanlar üçin suratly futbolka",
+    "description": "Fun dinosaur print.",
+    "description_en": "Fun dinosaur print.",
+    "description_ru": null,
+    "description_tk": null,
+    "price": "15.00",
+    "image": "",
+    "stock": 40,
+    "is_active": true,
+    "created_at": "2026-01-26"
+  }
+},
+{
+  "model": "product.product",
+  "pk": 124,
+  "fields": {
+    "category": 24,
+    "title": "Boys' Cargo Pants",
+    "title_en": "Boys' Cargo Pants",
+    "title_ru": "Брюки карго для мальчиков",
+    "title_tk": "Oglanlar üçin kargo balagy",
+    "description": "Durable with pockets.",
+    "description_en": "Durable with pockets.",
+    "description_ru": null,
+    "description_tk": null,
+    "price": "25.00",
+    "image": "",
+    "stock": 30,
+    "is_active": true,
+    "created_at": "2026-01-26"
+  }
+},
+{
+  "model": "product.product",
+  "pk": 125,
+  "fields": {
+    "category": 25,
+    "title": "Girls' Party Dress",
+    "title_en": "Girls' Party Dress",
+    "title_ru": "Нарядное платье для девочек",
+    "title_tk": "Gyzlar üçin toý köýnegi",
+    "description": "Pink with ribbons.",
+    "description_en": "Pink with ribbons.",
+    "description_ru": null,
+    "description_tk": null,
+    "price": "35.00",
+    "image": "",
+    "stock": 17,
+    "is_active": true,
+    "created_at": "2026-01-26"
+  }
+},
+{
+  "model": "product.product",
+  "pk": 126,
+  "fields": {
+    "category": 26,
+    "title": "Girls' Unicorn Top",
+    "title_en": "Girls' Unicorn Top",
+    "title_ru": "Топ с единорогом для девочек",
+    "title_tk": "Gyzlar üçin ýekemuyzly top",
+    "description": "Sparkly sequins.",
+    "description_en": "Sparkly sequins.",
+    "description_ru": null,
+    "description_tk": null,
+    "price": "18.00",
+    "image": "",
+    "stock": 35,
+    "is_active": true,
+    "created_at": "2026-01-26"
+  }
+},
+{
+  "model": "product.product",
+  "pk": 127,
+  "fields": {
+    "category": 36,
+    "title": "Men's Leather Belt",
+    "title_en": "Men's Leather Belt",
+    "title_ru": "Мужской кожаный ремень",
+    "title_tk": "Erkek deri guşagy",
+    "description": "Genuine leather, black.",
+    "description_en": "Genuine leather, black.",
+    "description_ru": null,
+    "description_tk": null,
+    "price": "25.00",
+    "image": "",
+    "stock": 49,
+    "is_active": true,
+    "created_at": "2026-01-27"
+  }
+},
+{
+  "model": "product.product",
+  "pk": 128,
+  "fields": {
+    "category": 37,
+    "title": "Leather Wallet",
+    "title_en": "Leather Wallet",
+    "title_ru": "Кожаный кошелек",
+    "title_tk": "Deri gapjyk",
+    "description": "Multiple card slots.",
+    "description_en": "Multiple card slots.",
+    "description_ru": null,
+    "description_tk": null,
+    "price": "30.00",
+    "image": "",
+    "stock": 40,
+    "is_active": true,
+    "created_at": "2026-01-27"
+  }
+},
+{
+  "model": "product.product",
+  "pk": 129,
+  "fields": {
+    "category": 38,
+    "title": "Silk Tie Red",
+    "title_en": "Silk Tie Red",
+    "title_ru": "Шелковый галстук (красный)",
+    "title_tk": "Gyzyl ýüpek galstuk",
+    "description": "Classic pattern.",
+    "description_en": "Classic pattern.",
+    "description_ru": null,
+    "description_tk": null,
+    "price": "20.00",
+    "image": "",
+    "stock": 30,
+    "is_active": true,
+    "created_at": "2026-01-27"
+  }
+},
+{
+  "model": "product.product",
+  "pk": 130,
+  "fields": {
+    "category": 32,
+    "title": "Silver Necklace",
+    "title_en": "Silver Necklace",
+    "title_ru": "Серебряное ожерелье",
+    "title_tk": "Kümüş halka",
+    "description": "Sterling silver 925.",
+    "description_en": "Sterling silver 925.",
+    "description_ru": null,
+    "description_tk": null,
+    "price": "45.00",
+    "image": "",
+    "stock": 20,
+    "is_active": true,
+    "created_at": "2026-01-27"
+  }
+},
+{
+  "model": "product.product",
+  "pk": 131,
+  "fields": {
+    "category": 32,
+    "title": "Pearl Earrings",
+    "title_en": "Pearl Earrings",
+    "title_ru": "Жемчужные серьги",
+    "title_tk": "Hünji gulakhalka",
+    "description": "Elegant freshwater pearls.",
+    "description_en": "Elegant freshwater pearls.",
+    "description_ru": null,
+    "description_tk": null,
+    "price": "35.00",
+    "image": "",
+    "stock": 25,
+    "is_active": true,
+    "created_at": "2026-01-27"
+  }
+},
+{
+  "model": "product.product",
+  "pk": 132,
+  "fields": {
+    "category": 39,
+    "title": "Women's Handbag",
+    "title_en": "Women's Handbag",
+    "title_ru": "Женская сумка",
+    "title_tk": "Zenan sumkasy",
+    "description": "Spacious and stylish.",
+    "description_en": "Spacious and stylish.",
+    "description_ru": null,
+    "description_tk": null,
+    "price": "75.00",
+    "image": "",
+    "stock": 15,
+    "is_active": true,
+    "created_at": "2026-01-27"
+  }
+},
+{
+  "model": "product.product",
+  "pk": 133,
+  "fields": {
+    "category": 40,
+    "title": "Cashmere Scarf",
+    "title_en": "Cashmere Scarf",
+    "title_ru": "Кашемировый шарф",
+    "title_tk": "Kaşmir şarf",
+    "description": "Soft and warm.",
+    "description_en": "Soft and warm.",
+    "description_ru": null,
+    "description_tk": null,
+    "price": "40.00",
+    "image": "",
+    "stock": 20,
+    "is_active": true,
+    "created_at": "2026-01-27"
+  }
+},
+{
+  "model": "product.product",
+  "pk": 134,
+  "fields": {
+    "category": 42,
+    "title": "Cat Eye Sunglasses",
+    "title_en": "Cat Eye Sunglasses",
+    "title_ru": "Очки 'Кошачий глаз'",
+    "title_tk": "Pişik göz äýnek",
+    "description": "UV protection.",
+    "description_en": "UV protection.",
+    "description_ru": null,
+    "description_tk": null,
+    "price": "25.00",
+    "image": "",
+    "stock": 30,
+    "is_active": true,
+    "created_at": "2026-01-27"
+  }
+},
+{
+  "model": "product.product",
+  "pk": 135,
+  "fields": {
+    "category": 43,
+    "title": "Kids' Beanie Hat",
+    "title_en": "Kids' Beanie Hat",
+    "title_ru": "Детская шапка бини",
+    "title_tk": "Çaga papagy",
+    "description": "Warm knit hat.",
+    "description_en": "Warm knit hat.",
+    "description_ru": null,
+    "description_tk": null,
+    "price": "12.00",
+    "image": "",
+    "stock": 50,
+    "is_active": true,
+    "created_at": "2026-01-27"
+  }
+},
+{
+  "model": "product.product",
+  "pk": 136,
+  "fields": {
+    "category": 44,
+    "title": "School Backpack",
+    "title_en": "School Backpack",
+    "title_ru": "Школьный рюкзак",
+    "title_tk": "Mekdep rýukzagy",
+    "description": "Durable with compartments.",
+    "description_en": "Durable with compartments.",
+    "description_ru": null,
+    "description_tk": null,
+    "price": "45.00",
+    "image": "",
+    "stock": 18,
+    "is_active": true,
+    "created_at": "2026-01-27"
+  }
+},
+{
+  "model": "product.product",
+  "pk": 137,
+  "fields": {
+    "category": 22,
+    "title": "Baby Onesie Set",
+    "title_en": "Baby Onesie Set",
+    "title_ru": "Набор боди для малышей",
+    "title_tk": "Bäbek eşikleri toplumy",
+    "description": "Pack of 3, organic cotton.",
+    "description_en": "Pack of 3, organic cotton.",
+    "description_ru": null,
+    "description_tk": null,
+    "price": "25.00",
+    "image": "",
+    "stock": 40,
+    "is_active": true,
+    "created_at": "2026-01-27"
+  }
+},
+{
+  "model": "product.product",
+  "pk": 138,
+  "fields": {
+    "category": 4,
+    "title": "Striped T-Shirt",
+    "title_en": "Striped T-Shirt",
+    "title_ru": "Полосатая футболка",
+    "title_tk": "Zolakly futbolka",
+    "description": "Nautical style.",
+    "description_en": "Nautical style.",
+    "description_ru": null,
+    "description_tk": null,
+    "price": "22.00",
+    "image": "",
+    "stock": 30,
+    "is_active": true,
+    "created_at": "2026-01-27"
+  }
+},
+{
+  "model": "product.product",
+  "pk": 139,
+  "fields": {
+    "category": 10,
+    "title": "Boxer Briefs 3-Pack",
+    "title_en": "Boxer Briefs 3-Pack",
+    "title_ru": "Боксеры (набор 3 шт)",
+    "title_tk": "Içki geýim (3 sany)",
+    "description": "Comfort waistband.",
+    "description_en": "Comfort waistband.",
+    "description_ru": null,
+    "description_tk": null,
+    "price": "30.00",
+    "image": "",
+    "stock": 50,
+    "is_active": true,
+    "created_at": "2026-01-27"
+  }
+},
+{
+  "model": "product.product",
+  "pk": 140,
+  "fields": {
+    "category": 18,
+    "title": "Lace Bra",
+    "title_en": "Lace Bra",
+    "title_ru": "Кружевной бюстгальтер",
+    "title_tk": "Kružewaly lifçik",
+    "description": "Soft lace detail.",
+    "description_en": "Soft lace detail.",
+    "description_ru": null,
+    "description_tk": null,
+    "price": "28.00",
+    "image": "",
+    "stock": 25,
+    "is_active": true,
+    "created_at": "2026-01-27"
+  }
+},
+{
+  "model": "product.product",
+  "pk": 141,
+  "fields": {
+    "category": 6,
+    "title": "Grey Joggers",
+    "title_en": "Grey Joggers",
+    "title_ru": "Серые джоггеры",
+    "title_tk": "Çal joggerler",
+    "description": "Casual wear.",
+    "description_en": "Casual wear.",
+    "description_ru": null,
+    "description_tk": null,
+    "price": "35.00",
+    "image": "",
+    "stock": 30,
+    "is_active": true,
+    "created_at": "2026-01-27"
+  }
+},
+{
+  "model": "product.product",
+  "pk": 142,
+  "fields": {
+    "category": 5,
+    "title": "Denim Shirt",
+    "title_en": "Denim Shirt",
+    "title_ru": "Джинсовая рубашка",
+    "title_tk": "Jinsi köýnek",
+    "description": "Western style.",
+    "description_en": "Western style.",
+    "description_ru": null,
+    "description_tk": null,
+    "price": "45.00",
+    "image": "",
+    "stock": 20,
+    "is_active": true,
+    "created_at": "2026-01-27"
+  }
+},
+{
+  "model": "product.product",
+  "pk": 143,
+  "fields": {
+    "category": 15,
+    "title": "Wide Leg Trousers",
+    "title_en": "Wide Leg Trousers",
+    "title_ru": "Широкие брюки",
+    "title_tk": "Giň balak",
+    "description": "Modern silhouette.",
+    "description_en": "Modern silhouette.",
+    "description_ru": null,
+    "description_tk": null,
+    "price": "55.00",
+    "image": "",
+    "stock": 15,
+    "is_active": true,
+    "created_at": "2026-01-27"
+  }
+},
+{
+  "model": "product.product",
+  "pk": 144,
+  "fields": {
+    "category": 16,
+    "title": "Winter Puffer Jacket",
+    "title_en": "Winter Puffer Jacket",
+    "title_ru": "Зимний пуховик",
+    "title_tk": "Gysky puhowik",
+    "description": "Very warm.",
+    "description_en": "Very warm.",
+    "description_ru": null,
+    "description_tk": null,
+    "price": "130.00",
+    "image": "",
+    "stock": 10,
+    "is_active": true,
+    "created_at": "2026-01-27"
+  }
+},
+{
+  "model": "product.product",
+  "pk": 145,
+  "fields": {
+    "category": 11,
+    "title": "Casual Loafers",
+    "title_en": "Casual Loafers",
+    "title_ru": "Повседневные лоферы",
+    "title_tk": "Gündelik loferler",
+    "description": "Suede material.",
+    "description_en": "Suede material.",
+    "description_ru": null,
+    "description_tk": null,
+    "price": "80.00",
+    "image": "",
+    "stock": 15,
+    "is_active": true,
+    "created_at": "2026-01-28"
+  }
+},
+{
+  "model": "product.product",
+  "pk": 146,
+  "fields": {
+    "category": 12,
+    "title": "Wrap Dress",
+    "title_en": "Wrap Dress",
+    "title_ru": "Платье с запахом",
+    "title_tk": "Oraşan köýnek",
+    "description": "Flattering fit.",
+    "description_en": "Flattering fit.",
+    "description_ru": null,
+    "description_tk": null,
+    "price": "60.00",
+    "image": "",
+    "stock": 20,
+    "is_active": true,
+    "created_at": "2026-01-28"
+  }
+},
+{
+  "model": "product.product",
+  "pk": 147,
+  "fields": {
+    "category": 20,
+    "title": "Boys' Hoodie",
+    "title_en": "Boys' Hoodie",
+    "title_ru": "Худи для мальчиков",
+    "title_tk": "Oglan üçin hudi",
+    "description": "With kangaroo pocket.",
+    "description_en": "With kangaroo pocket.",
+    "description_ru": null,
+    "description_tk": null,
+    "price": "25.00",
+    "image": "",
+    "stock": 35,
+    "is_active": true,
+    "created_at": "2026-01-28"
+  }
+},
+{
+  "model": "product.product",
+  "pk": 148,
+  "fields": {
+    "category": 21,
+    "title": "Girls' Leggings",
+    "title_en": "Girls' Leggings",
+    "title_ru": "Леггинсы для девочек",
+    "title_tk": "Gyzlar üçin legginsy",
+    "description": "Colorful patterns.",
+    "description_en": "Colorful patterns.",
+    "description_ru": null,
+    "description_tk": null,
+    "price": "15.00",
+    "image": "",
+    "stock": 40,
+    "is_active": true,
+    "created_at": "2026-01-28"
+  }
+},
+{
+  "model": "product.product",
+  "pk": 149,
+  "fields": {
+    "category": 37,
+    "title": "Card Holder",
+    "title_en": "Card Holder",
+    "title_ru": "Картхолдер",
+    "title_tk": "Kart saklaýjy",
+    "description": "Slim design.",
+    "description_en": "Slim design.",
+    "description_ru": null,
+    "description_tk": null,
+    "price": "15.00",
+    "image": "",
+    "stock": 60,
+    "is_active": true,
+    "created_at": "2026-01-28"
+  }
+},
+{
+  "model": "product.product",
+  "pk": 150,
+  "fields": {
+    "category": 32,
+    "title": "Gold Plated Bracelet",
+    "title_en": "Gold Plated Bracelet",
+    "title_ru": "Позолоченный браслет",
+    "title_tk": "Altyn çaýylan bilezik",
+    "description": "Delicate chain.",
+    "description_en": "Delicate chain.",
+    "description_ru": null,
+    "description_tk": null,
+    "price": "40.00",
+    "image": "",
+    "stock": 19,
+    "is_active": true,
+    "created_at": "2026-01-28"
+  }
+},
+{
+  "model": "product.product",
+  "pk": 151,
+  "fields": {
+    "category": 45,
+    "title": "Patek Philippe Grand Complications",
+    "title_en": "Patek Philippe Grand Complications",
+    "title_ru": "Patek Philippe Grand Complications",
+    "title_tk": "Patek Philippe Grand Complications",
+    "description": "The new 2025 model 6301P is a watch with advanced functions, a black dial, a platinum case, and a diameter of 44.8 mm.",
+    "description_en": "The new 2025 model 6301P is a watch with advanced functions, a black dial, a platinum case, and a diameter of 44.8 mm.",
+    "description_ru": "Новая модель 6301P 2025 года — часы с расширенными функциями, черный циферблат, платиновый корпус, диаметр 44,8 мм.",
+    "description_tk": "Täze 2025-nji ýyl 6301P modeli — goşmaça funksiýaly sagat, gara siferblat, platina korpusy, diametri 44,8 mm.",
+    "price": "850.00",
+    "image": "products/patek_philippe.jpg",
+    "stock": 10,
+    "is_active": true,
+    "created_at": "2026-01-30"
+  }
+},
+{
+  "model": "product.productvariant",
+  "pk": 1,
+  "fields": {
+    "product": 101,
+    "size": 2,
+    "stock": 10
+  }
+},
+{
+  "model": "product.productvariant",
+  "pk": 2,
+  "fields": {
+    "product": 101,
+    "size": 3,
+    "stock": 10
+  }
+},
+{
+  "model": "product.productvariant",
+  "pk": 3,
+  "fields": {
+    "product": 101,
+    "size": 4,
+    "stock": 12
+  }
+},
+{
+  "model": "product.productvariant",
+  "pk": 4,
+  "fields": {
+    "product": 101,
+    "size": 5,
+    "stock": 8
+  }
+},
+{
+  "model": "product.productvariant",
+  "pk": 5,
+  "fields": {
+    "product": 102,
+    "size": 2,
+    "stock": 10
+  }
+},
+{
+  "model": "product.productvariant",
+  "pk": 6,
+  "fields": {
+    "product": 102,
+    "size": 3,
+    "stock": 10
+  }
+},
+{
+  "model": "product.productvariant",
+  "pk": 7,
+  "fields": {
+    "product": 102,
+    "size": 4,
+    "stock": 10
+  }
+},
+{
+  "model": "product.productvariant",
+  "pk": 8,
+  "fields": {
+    "product": 103,
+    "size": 3,
+    "stock": 5
+  }
+},
+{
+  "model": "product.productvariant",
+  "pk": 9,
+  "fields": {
+    "product": 103,
+    "size": 4,
+    "stock": 10
+  }
+},
+{
+  "model": "product.productvariant",
+  "pk": 10,
+  "fields": {
+    "product": 103,
+    "size": 5,
+    "stock": 7
+  }
+},
+{
+  "model": "product.productvariant",
+  "pk": 11,
+  "fields": {
+    "product": 105,
+    "size": 3,
+    "stock": 17
+  }
+},
+{
+  "model": "product.productvariant",
+  "pk": 12,
+  "fields": {
+    "product": 105,
+    "size": 4,
+    "stock": 20
+  }
+},
+{
+  "model": "product.productvariant",
+  "pk": 13,
+  "fields": {
+    "product": 105,
+    "size": 5,
+    "stock": 14
+  }
+},
+{
+  "model": "product.productvariant",
+  "pk": 14,
+  "fields": {
+    "product": 107,
+    "size": 3,
+    "stock": 3
+  }
+},
+{
+  "model": "product.productvariant",
+  "pk": 15,
+  "fields": {
+    "product": 107,
+    "size": 4,
+    "stock": 4
+  }
+},
+{
+  "model": "product.productvariant",
+  "pk": 16,
+  "fields": {
+    "product": 107,
+    "size": 5,
+    "stock": 2
+  }
+},
+{
+  "model": "product.productvariant",
+  "pk": 17,
+  "fields": {
+    "product": 109,
+    "size": 4,
+    "stock": 2
+  }
+},
+{
+  "model": "product.productvariant",
+  "pk": 18,
+  "fields": {
+    "product": 109,
+    "size": 5,
+    "stock": 3
+  }
+},
+{
+  "model": "product.productvariant",
+  "pk": 19,
+  "fields": {
+    "product": 111,
+    "size": 12,
+    "stock": 3
+  }
+},
+{
+  "model": "product.productvariant",
+  "pk": 20,
+  "fields": {
+    "product": 111,
+    "size": 13,
+    "stock": 4
+  }
+},
+{
+  "model": "product.productvariant",
+  "pk": 21,
+  "fields": {
+    "product": 111,
+    "size": 14,
+    "stock": 3
+  }
+},
+{
+  "model": "product.productvariant",
+  "pk": 22,
+  "fields": {
+    "product": 112,
+    "size": 11,
+    "stock": 5
+  }
+},
+{
+  "model": "product.productvariant",
+  "pk": 23,
+  "fields": {
+    "product": 112,
+    "size": 12,
+    "stock": 8
+  }
+},
+{
+  "model": "product.productvariant",
+  "pk": 24,
+  "fields": {
+    "product": 112,
+    "size": 13,
+    "stock": 7
+  }
+},
+{
+  "model": "product.productvariant",
+  "pk": 25,
+  "fields": {
+    "product": 112,
+    "size": 14,
+    "stock": 4
+  }
+},
+{
+  "model": "product.productvariant",
+  "pk": 26,
+  "fields": {
+    "product": 113,
+    "size": 1,
+    "stock": 5
+  }
+},
+{
+  "model": "product.productvariant",
+  "pk": 27,
+  "fields": {
+    "product": 113,
+    "size": 2,
+    "stock": 8
+  }
+},
+{
+  "model": "product.productvariant",
+  "pk": 28,
+  "fields": {
+    "product": 113,
+    "size": 3,
+    "stock": 6
+  }
+},
+{
+  "model": "product.productvariant",
+  "pk": 29,
+  "fields": {
+    "product": 114,
+    "size": 2,
+    "stock": 2
+  }
+},
+{
+  "model": "product.productvariant",
+  "pk": 30,
+  "fields": {
+    "product": 114,
+    "size": 3,
+    "stock": 2
+  }
+},
+{
+  "model": "product.productvariant",
+  "pk": 31,
+  "fields": {
+    "product": 115,
+    "size": 2,
+    "stock": 5
+  }
+},
+{
+  "model": "product.productvariant",
+  "pk": 32,
+  "fields": {
+    "product": 115,
+    "size": 3,
+    "stock": 4
+  }
+},
+{
+  "model": "product.productvariant",
+  "pk": 33,
+  "fields": {
+    "product": 118,
+    "size": 1,
+    "stock": 10
+  }
+},
+{
+  "model": "product.productvariant",
+  "pk": 34,
+  "fields": {
+    "product": 118,
+    "size": 2,
+    "stock": 15
+  }
+},
+{
+  "model": "product.productvariant",
+  "pk": 35,
+  "fields": {
+    "product": 118,
+    "size": 3,
+    "stock": 10
+  }
+},
+{
+  "model": "product.productvariant",
+  "pk": 36,
+  "fields": {
+    "product": 120,
+    "size": 2,
+    "stock": 20
+  }
+},
+{
+  "model": "product.productvariant",
+  "pk": 37,
+  "fields": {
+    "product": 120,
+    "size": 3,
+    "stock": 20
+  }
+},
+{
+  "model": "product.productvariant",
+  "pk": 38,
+  "fields": {
+    "product": 121,
+    "size": 8,
+    "stock": 3
+  }
+},
+{
+  "model": "product.productvariant",
+  "pk": 39,
+  "fields": {
+    "product": 121,
+    "size": 9,
+    "stock": 4
+  }
+},
+{
+  "model": "product.productvariant",
+  "pk": 40,
+  "fields": {
+    "product": 121,
+    "size": 10,
+    "stock": 2
+  }
+},
+{
+  "model": "product.productvariant",
+  "pk": 41,
+  "fields": {
+    "product": 123,
+    "size": 1,
+    "stock": 10
+  }
+},
+{
+  "model": "product.productvariant",
+  "pk": 42,
+  "fields": {
+    "product": 123,
+    "size": 2,
+    "stock": 15
+  }
+},
+{
+  "model": "product.productvariant",
+  "pk": 43,
+  "fields": {
+    "product": 123,
+    "size": 3,
+    "stock": 10
+  }
+},
+{
+  "model": "product.productvariant",
+  "pk": 44,
+  "fields": {
+    "product": 124,
+    "size": 2,
+    "stock": 10
+  }
+},
+{
+  "model": "product.productvariant",
+  "pk": 45,
+  "fields": {
+    "product": 124,
+    "size": 3,
+    "stock": 10
+  }
+},
+{
+  "model": "product.productvariant",
+  "pk": 46,
+  "fields": {
+    "product": 138,
+    "size": 2,
+    "stock": 10
+  }
+},
+{
+  "model": "product.productvariant",
+  "pk": 47,
+  "fields": {
+    "product": 138,
+    "size": 3,
+    "stock": 10
+  }
+},
+{
+  "model": "product.productvariant",
+  "pk": 48,
+  "fields": {
+    "product": 138,
+    "size": 4,
+    "stock": 10
+  }
+},
+{
+  "model": "product.productvariant",
+  "pk": 49,
+  "fields": {
+    "product": 139,
+    "size": 3,
+    "stock": 20
+  }
+},
+{
+  "model": "product.productvariant",
+  "pk": 50,
+  "fields": {
+    "product": 139,
+    "size": 4,
+    "stock": 20
+  }
+},
+{
+  "model": "product.productvariant",
+  "pk": 51,
+  "fields": {
+    "product": 139,
+    "size": 5,
+    "stock": 10
+  }
+},
+{
+  "model": "product.productvariant",
+  "pk": 52,
+  "fields": {
+    "product": 140,
+    "size": 2,
+    "stock": 8
+  }
+},
+{
+  "model": "product.productvariant",
+  "pk": 53,
+  "fields": {
+    "product": 140,
+    "size": 3,
+    "stock": 10
+  }
+},
+{
+  "model": "product.productvariant",
+  "pk": 54,
+  "fields": {
+    "product": 140,
+    "size": 4,
+    "stock": 5
+  }
+},
+{
+  "model": "product.productvariant",
+  "pk": 55,
+  "fields": {
+    "product": 141,
+    "size": 3,
+    "stock": 10
+  }
+},
+{
+  "model": "product.productvariant",
+  "pk": 56,
+  "fields": {
+    "product": 141,
+    "size": 4,
+    "stock": 10
+  }
+},
+{
+  "model": "product.productvariant",
+  "pk": 57,
+  "fields": {
+    "product": 141,
+    "size": 5,
+    "stock": 8
+  }
+},
+{
+  "model": "product.productvariant",
+  "pk": 58,
+  "fields": {
+    "product": 145,
+    "size": 12,
+    "stock": 5
+  }
+},
+{
+  "model": "product.productvariant",
+  "pk": 59,
+  "fields": {
+    "product": 145,
+    "size": 13,
+    "stock": 5
+  }
+},
+{
+  "model": "product.productvariant",
+  "pk": 60,
+  "fields": {
+    "product": 145,
+    "size": 14,
+    "stock": 5
+  }
+},
+{
+  "model": "product.productvariant",
+  "pk": 61,
+  "fields": {
+    "product": 146,
+    "size": 2,
+    "stock": 10
+  }
+},
+{
+  "model": "product.productvariant",
+  "pk": 62,
+  "fields": {
+    "product": 146,
+    "size": 3,
+    "stock": 10
+  }
+},
+{
+  "model": "product.productvariant",
+  "pk": 63,
+  "fields": {
+    "product": 147,
+    "size": 2,
+    "stock": 15
+  }
+},
+{
+  "model": "product.productvariant",
+  "pk": 64,
+  "fields": {
+    "product": 147,
+    "size": 3,
+    "stock": 15
+  }
+}
+]
