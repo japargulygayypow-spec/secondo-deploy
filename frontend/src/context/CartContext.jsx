@@ -7,7 +7,10 @@ const CartContext = createContext();
 
 export function CartProvider({ children }) {
   const { user } = useAuth();
-  const [cartItems, setCartItems] = useState([]);
+  const [cartItems, setCartItems] = useState(() => {
+    const raw = localStorage.getItem('guest_cart_items');
+    return raw ? JSON.parse(raw) : [];
+  });
   const [isLoading, setIsLoading] = useState(false);
 
   // Initialize local cart or fetch if logged in
@@ -15,8 +18,16 @@ export function CartProvider({ children }) {
     fetchCart();
   }, [user]);
 
+  useEffect(() => {
+    localStorage.setItem('guest_cart_items', JSON.stringify(cartItems));
+  }, [cartItems]);
+
   const fetchCart = async () => {
     setIsLoading(true);
+    if (!user) {
+      setIsLoading(false);
+      return;
+    }
     try {
       const data = await cartApi.getCart();
       if (data && Array.isArray(data.items)) {
@@ -50,6 +61,15 @@ export function CartProvider({ children }) {
       if (variant) variantId = variant.id;
     }
 
+    if (!user) {
+      setCartItems(prev => {
+        const idx = prev.findIndex(i => i.id === product.id && i.selectedSize === size);
+        if (idx >= 0) { const copy=[...prev]; copy[idx].quantity += 1; return copy; }
+        return [...prev, { ...product, quantity: 1, selectedSize: size, price: parseFloat(product.discounted_price || product.price || 0) }];
+      });
+      toast.success("Added to cart");
+      return;
+    }
     try {
       await cartApi.addToCart(product.id, variantId, 1);
       toast.success("Added to cart");
@@ -61,6 +81,7 @@ export function CartProvider({ children }) {
   };
 
   const removeFromCart = async (productId, size = null) => {
+    if (!user) { setCartItems(prev => prev.filter(item => !(item.id === productId && item.selectedSize === size))); return; }
     const itemToRemove = cartItems.find(item => item.id === productId && item.selectedSize === size);
     if (itemToRemove?.cartItemId) {
       try {
@@ -79,6 +100,7 @@ export function CartProvider({ children }) {
       return;
     }
 
+    if (!user) { setCartItems(prev => prev.map(item => item.id === productId && item.selectedSize === size ? { ...item, quantity } : item)); return; }
     const itemToUpdate = cartItems.find(item => item.id === productId && item.selectedSize === size);
     if (itemToUpdate?.cartItemId) {
       try {
@@ -91,6 +113,7 @@ export function CartProvider({ children }) {
   };
 
   const clearCart = async () => {
+    if (!user) { setCartItems([]); toast.success("Cart cleared"); return; }
     try {
       await cartApi.clearCart();
       setCartItems([]);

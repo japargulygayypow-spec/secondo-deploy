@@ -4,12 +4,12 @@ import { ShoppingCart, Eye, Image as ImageIcon } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { useLanguage } from '@/components/LanguageContext';
 import { useCart } from '@/context/CartContext';
-import { toast } from 'sonner';
 import ProductModal from '@/components/ProductModal';
 
 export default function ProductCard({ product, index }) {
-  const { t, getProductName, getProductType } = useLanguage();
+  const { t, getProductName, getProductType, getProductDescription } = useLanguage();
   const [imageError, setImageError] = useState(false);
+  const { addToCart } = useCart();
 
   if (!product) return null;
 
@@ -76,6 +76,7 @@ export default function ProductCard({ product, index }) {
               <h3 className="text-xs sm:text-sm font-medium text-stone-900 line-clamp-1 group-hover:text-amber-600 transition-colors">
                 {getProductName(product)}
               </h3>
+              <p className="text-[11px] text-stone-500 line-clamp-2">{getProductDescription(product)}</p>
             </div>
 
             <div className="flex items-center justify-between mt-2 sm:mt-4">
@@ -89,7 +90,7 @@ export default function ProductCard({ product, index }) {
                   {finalPrice.toFixed(2)}tmt
                 </p>
               </div>
-              <Button
+              <Button onClick={(e) => { e.stopPropagation(); addToCart(product); }}
                 variant="ghost"
                 size="sm"
                 className="text-amber-600 hover:text-amber-700 hover:bg-amber-50 font-medium text-[10px] sm:text-xs gap-1 sm:gap-2 h-7 sm:h-9 px-2 sm:px-3"
