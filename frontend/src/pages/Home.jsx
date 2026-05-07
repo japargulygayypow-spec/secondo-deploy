@@ -82,7 +82,7 @@ export default function Home() {
   }
 
   return (
-    <div className="min-h-screen bg-white">
+    <div className="min-h-screen bg-transparent">
       {/* Banner Carousel or Hero Section */}
       {!bannersLoading && banners && banners.length > 0 ? (
         <BannerCarousel banners={banners} />
@@ -112,7 +112,7 @@ export default function Home() {
       </section>
 
       {/* Discount Products */}
-      <section className="py-12 sm:py-20 px-4 sm:px-6 lg:px-8 bg-white">
+      <section className="py-12 sm:py-20 px-4 sm:px-6 lg:px-8 bg-transparent">
         <div className="max-w-7xl mx-auto">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -144,7 +144,7 @@ export default function Home() {
       </section>
 
       {/* New Arrivals */}
-      <section className="py-12 sm:py-20 px-4 sm:px-6 lg:px-8 bg-white">
+      <section className="py-12 sm:py-20 px-4 sm:px-6 lg:px-8 bg-transparent">
         <div className="max-w-7xl mx-auto">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
